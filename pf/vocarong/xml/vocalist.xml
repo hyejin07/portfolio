@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<lesson no="1">
+		<voca num="0" part="품사" word="c" means="어떻게" exam="예문">how</voca>
+		<voca num="1" part="품사" word="c" means="있다, 존재하다(단수형)" exam="예문">is</voca>
+		<voca num="2" part="품사" word="c" means="그" exam="예문">the</voca>
+		<voca num="3" part="품사" word="c" means="날씨" exam="예문">weather</voca>
+		<voca num="4" part="품사" word="c" means="그것" exam="예문">it</voca>
+		<voca num="5" part="품사" word="c" means="정말 기분 좋은" exam="예문">delightful</voca>
+		<voca num="6" part="품사" word="c" means="가벼운" exam="예문">mild</voca>
+		<voca num="7" part="품사" word="c" means="타당한" exam="예문">fair</voca>
+		<voca num="8" part="품사" word="c" means="오늘" exam="예문">today</voca>
+		<voca num="9" part="품사" word="c" means="날씨가 흐린" exam="예문">cloudy</voca>
+		<voca num="10" part="품사" word="c" means="~의(소유격)" exam="예문">'s</voca>
+		<voca num="11" part="품사" word="c" means="지금까지 줄곧 …이다" exam="예문">been</voca>
+		<voca num="12" part="품사" word="c" means="회색" exam="예문">gray</voca>
+		<voca num="13" part="품사" word="c" means="모든" exam="예문">all</voca>
+		<voca num="14" part="품사" word="c" means="아침" exam="예문">morning</voca>
+		<voca num="15" part="품사" word="c" means="나는" exam="예문">I</voca>
+		<voca num="16" part="품사" word="c" means="듣다" exam="예문">listened</voca>
+		<voca num="17" part="품사" word="c" means="…로[에], …쪽으로" exam="예문">to</voca>
+		<voca num="18" part="품사" word="c" means="예측,예보" exam="예문">forecast</voca>
+		<voca num="19" part="품사" word="c" means="돌린" exam="예문">turned</voca>
+		<voca num="20" part="품사" word="c" means="외부" exam="예문">out</voca>
+		<voca num="21" part="품사" word="c" means="틀린" exam="예문">wrong</voca>
+		<voca num="22" part="품사" word="c" means="있다(is의 과거형)" exam="예문">was</voca>
+		<voca num="23" part="품사" word="c" means="예측할 수 없는" exam="예문">unpredictable</voca>
+		<voca num="24" part="품사" word="c" means="온도" exam="예문">temperature</voca>
+		<voca num="25" part="품사" word="c" means="(잉글랜드 북부 지방의)언덕 과거형이라면 fall의 과거형" exam="예문">fell</voca>
+		<voca num="26" part="품사" word="c" means="갑자기" exam="예문">suddenly</voca>
+		<voca num="27" part="품사" word="c" means="(지역・공간 내의) …에[에서]" exam="예문">in</voca>
+		<voca num="28" part="품사" word="c" means="점점" exam="예문">getting</voca>
+		<voca num="29" part="품사" word="c" means="...보다 나은" exam="예문">better</voca>
+		<voca num="30" part="품사" word="c" means=" 안개" exam="예문">fog</voca>
+		<voca num="31" part="품사" word="c" means="두꺼워 진" exam="예문">thickened</voca>
+		<voca num="32" part="품사" word="c" means="천천히" exam="예문">slowly</voca>
+		<voca num="33" part="품사" word="c" means="아직도" exam="예문">still</voca>
+		<voca num="34" part="품사" word="c" means="명)감기 형)추운" exam="예문">cold</voca>
+		<voca num="35" part="품사" word="c" means="확인한" exam="예문">checked</voca>
+		<voca num="36" part="품사" word="c" means="비가 내린" exam="예문">rained</voca>
+		<voca num="37" part="품사" word="c" means="때때로" exam="예문">occasionally</voca>
+		<voca num="38" part="품사" word="c" means="개간 된" exam="예문">cleared</voca>
+		<voca num="39" part="품사" word="c" means="위쪽으로" exam="예문">up</voca>
+		<voca num="40" part="품사" word="c" means="동)좋다 부)~처럼 형)~와 비슷한" exam="예문">like</voca>
+		<voca num="41" part="품사" word="c" means="맑은" exam="예문">sunny</voca>
+		<voca num="42" part="품사" word="c" means="일" exam="예문">days</voca>
+		<voca num="43" part="품사" word="c" means="구름" exam="예문">clouds</voca>
+		<voca num="44" part="품사" word="c" means="시작되었다" exam="예문">began</voca>
+		<voca num="45" part="품사" word="c" means="덮개" exam="예문">cover</voca>
+		<voca num="46" part="품사" word="c" means="하늘" exam="예문">sky</voca>
+		<voca num="47" part="품사" word="c" means="그러나" exam="예문">but</voca>
+		<voca num="48" part="품사" word="c" means="받다" exam="예문">got</voca>
+		<voca num="49" part="품사" word="c" means="입증 된" exam="예문">proved</voca>
+		<voca num="50" part="품사" word="c" means="명)권리 형)적절한, 오른쪽의 동)바르다" exam="예문">right</voca>
+	</lesson>
+	<lesson no="2">
+		
+	</lesson>
+	<lesson no="3">
+		
+	</lesson>
+	<lesson no="4">
+		
+	</lesson>
+	<lesson no="5">
+		
+	</lesson>
+	<lesson no="6">
+		
+	</lesson>
+	<lesson no="7">
+		
+	</lesson>
+	<lesson no="8">
+		
+	</lesson>
+	<lesson no="9">
+		
+	</lesson>
+	<lesson no="10">
+		
+	</lesson>
+	
+</data>

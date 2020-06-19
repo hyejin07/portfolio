@@ -1,0 +1,221 @@
+@charset "UTF-8";
+@import url("font.css");
+@import url("reset.css");
+@import url("commonLayout.css");
+
+.fl {
+	float: left;
+}
+.listTab1 {
+	position: absolute;
+	top: 285px;
+	left: 94px;
+	width: 209px;
+	height: 68px;
+	background: url(../images/vocalist_tab1_0001.png) no-repeat center bottom;
+	background-size: 209px;
+}
+.listTab1_over {
+	width: 209px;
+	height: 68px;
+	background: url(../images/vocalist_tab1_0002.png) no-repeat;
+	background-size: 209px;
+}
+.listTab2 {
+	position: absolute;
+	top: 285px;
+	left: 310px;
+	width: 209px;
+	height: 68px;
+	background: url(../images/vocalist_tab2_0001.png) no-repeat center bottom;
+	background-size: 209px;
+}
+.listTab2_over {
+	width: 209px;
+	height: 68px;
+	background: url(../images/vocalist_tab2_0002.png) no-repeat;
+	background-size: 209px;
+}
+[class^='listTab'] {
+	z-index: 1;
+}
+.delete {
+	margin: 38px 0 0 840px;
+	width: 208px;
+	height: 66px;
+	background: url(../images/vocalist_deleteBtn.png) no-repeat;
+	background-size: 208px;
+}
+.search {
+	margin: 39px 0 0 3px;
+	width: 333px;
+	height: 66px;
+	background: url(../images/word_serch.png) no-repeat;
+	background-size: 333px;
+}
+.search input {
+	margin: 10px 0 0 69px;
+	width: 252px;
+	height: 41px;
+	font-family: NanumSquareRoundEB;
+	font-size: 28px;
+	color: #48b0e0;
+	text-align: center;
+	border: none;
+	background-color: transparent;
+	cursor: default;
+	outline: none;
+}
+.search input::placeholder {
+	color: #48b0e0;
+}
+[class^='listContents_'] {
+	margin: -6px 0 0 88px;
+	padding: 82px 0 0 11px;
+	width: 1422px;
+	height: 634px;
+	background: url(../images/vocalist_base.png) no-repeat;
+	background-size: 1422px;
+	clear: both;
+	position: relative;
+}
+.listBox {
+	width: 1394px;
+	height: 525px;
+	overflow: hidden;
+}
+
+[class^='listContents_']:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -66px;
+	right: -29px;
+	width: 133px;
+	height: 137px;
+	background: url(../images/vocalist_char1.png) no-repeat;
+	background-size: 133px;
+}
+[class^='list_word_'] {
+	margin-bottom: 2px;
+	width: 1349px;
+	height: 103px;
+	background: url(../images/vocalist_word_base.png) no-repeat;
+	background-size: 1349px;
+	position: relative;
+}
+[class^='list_word_'] div {
+	float: left;
+	line-height: 103px;
+}
+[class^='list_word_']:last-child {
+	margin: 0;
+}
+[class^='list_word_']:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.wordList {
+	margin-left: 55px;
+	width: 260px;
+	font-family: NotoSansCJKkr_Black;
+	font-size: 35px;
+	color: #783b24;
+}
+.meanList {
+	margin-left: 31px;
+	width: 230px;
+	font-family: NotoSansCJKkr_Bold;
+	font-size: 33px;
+	color: #333;
+}
+.exList {
+	margin-left: 39px;
+	font-family: NotoSansCJKkr_Black;
+	font-size: 32px;
+	color: #333;
+}
+.checkBox {
+	position: absolute;
+	top: 41px;
+	left: 6px;
+	width: 22px;
+	height: 21px;
+}
+.checkIcon {
+	width: 22px;
+	height: 21px;
+	background: url(../images/list_check.png) no-repeat;
+	background-size: 22px;
+}
+.scroll {
+	width: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.scrollBase {
+	margin: auto;
+	width: 11px;
+	background: url(../images/scroll_base.png) no-repeat;
+	background-size: 11px;
+}
+.scrollHandle {
+	width: 40px;
+	background: url(../images/scroll_bar.png) no-repeat;
+	background-size: 40px;
+}
+
+.popup {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.popup_char3 {
+	width: 740px;
+	height: 302px;
+	background: url(../images/popup_3_base.png) no-repeat;
+	background-size: 740px;
+	position: relative;
+	top: 399px;
+	left: 433px;
+	font-size: 0;
+}
+.popup_char3:before {
+	content: '';
+	display: block;
+	width: 311px;
+	height: 210px;
+	position: absolute;
+	top: -127px;
+	left: 218px;
+	background: url(../images/popup_char3.png) no-repeat;
+	background-size: 311px;
+}
+.popup_char3 p {
+	padding: 97px 0 0 60px;
+	font-family: NanumSquareEB;
+	font-size: 38px;
+	color: #fff;
+}
+[class^='popup_btn_'] {
+	margin-top: 30px;
+	display: inline-block;
+	width: 162px;
+	height: 72px;
+}
+.popup_btn_yes {
+	margin-left: 176px;
+	background: url(../images/popup_yes_btn.png) no-repeat;
+	background-size: 162px;
+}
+.popup_btn_no {
+	margin-left: 56px;
+	background: url(../images/popup_no_btn.png) no-repeat;
+	background-size: 162px;
+}

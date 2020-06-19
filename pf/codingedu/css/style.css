@@ -1,0 +1,406 @@
+@charset "UTF-8";
+
+.obj {
+	display: inline-block;
+	width: 130px;
+	height: 65px;
+	margin-top: 15px;
+	padding-top: 10px;
+	color: #fff;
+	background-image: url(../images/puzzle.png);
+	z-index: 10;
+	box-sizing: border-box;
+	font-size: 16px;
+	user-select: none;
+	cursor: move;
+}
+.drag span {	
+	z-index: 20;
+}
+
+.arrow:after {
+	position: relative;
+	left: 5px;
+	top: 5px;
+	display: inline-block;
+	content: '';
+	width: 27px;
+	height: 26px;
+	background-image: url(../images/arrow.png);
+	opacity: 0.7;
+}
+.arrow.left:after{
+	transform: rotate(180deg);
+}
+.arrow.top:after{
+	transform: rotate(-90deg);
+}
+.arrow.bottom:after{
+	transform: rotate(90deg);
+}
+.right {
+	background-position: 0 0;
+}
+.left {background-position: 130px 0;}
+.top {background-position: 130px -65px;}
+.bottom {background-position: 0 -65px;}
+.sugarcandy {padding-top: 15px !important; background-position: 0 -130px;}
+.obj.repeat {
+	position: relative;
+	width: 146px !important;
+	height: 133px;
+	background: url(../images/obj_repeat_top.png) 0 top no-repeat,
+				url(../images/obj_repeat_bottom.png) 0 bottom no-repeat;
+	padding-top: 15px !important;
+	box-sizing: border-box;
+}
+.repeat .side-bar {
+	display: block;
+	position: absolute;
+	width: 146px;
+	height: 50px;
+	top: 50px;
+	border-left: 8px solid #845ca7;
+	border-right: 8px solid #845ca7;
+	box-sizing: border-box;
+}
+.drop .obj {
+	position: absolute; 
+	margin: 0;
+}
+.drop .execute {
+	display: inline-block;	
+	background-position: 130px -130px;
+	width: 130px;	
+	height: 65px;
+	left: 20px;
+	top: 20px;	
+	padding-top: 17px;
+}
+.drop .execute:after {
+	display: inline-block;
+	position: relative;
+	left: 9px;
+	top: 2px;
+	content: '';
+	width: 13px;
+	height: 15px;
+	background-image: url(../images/execute.png);
+}
+.drop .repeat {
+	margin-left: -8px;
+	position: absolute !important;
+}
+.order-number {
+	position: absolute;
+	left: 9px;
+	display: inline-block;
+	width: 40px;
+	height: 30px;
+	padding-left: 6px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.2);
+	cursor: pointer;
+	box-sizing: border-box;
+	line-height: 30px;
+	text-align: left;
+}
+.order-number:after {
+	display: inline-block;
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	margin-top: -5px;
+	content: '';
+	width: 11px;
+	height: 10px;
+	background-image: url(../images/select_arrow.png);
+}
+.select-box {
+	position: absolute;
+	display: none;
+	overflow: hidden;
+	left: 9px;
+	width: 40px;
+	height: auto;
+	top: 40px;
+	background-color: #fff;
+	transition: height 0.3s;
+}
+.select-box.on {
+	display: block;
+	/*height: auto;*/
+}
+.select-box li {
+	color: #626262;
+	cursor: pointer;
+	font-size: 13px;
+	line-height: 20px;
+	border-bottom: 1px solid #ebebeb;
+	text-align: left;
+	text-indent: 11px;
+}
+.select-box li:last-child {
+	border: 0;
+}
+.select-box li:hover {
+	background-color: #bbb;
+}
+
+
+.clearbox {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 20;
+}
+.clearbox.show {
+	display: block;
+}
+.situation {
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -200px 0 0 -300px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.situation > div {
+	float: left;
+	clear: both;
+}
+.situation .character {
+	display: inline-block;
+	width: 207px;
+	box-sizing: border-box;
+}
+.situation .character span {
+	display: block;
+	width: 133px;
+	margin: 84px 0 0 50px;
+	font-size: 0;
+	height: 209px;
+	background-repeat: none;
+}
+.situation .character.success span {
+	background-image: url(../images/char_success.png);
+}
+.situation .character.fail span {
+	background-image: url(../images/char_fail.png);
+}
+.situation .character.candymiss.fail span {
+	background-image: url(../images/char_candy.png);
+}
+.situation .character.not-enough span {
+	background-image: url(../images/char_not_enough.png);
+}
+.situation .text {
+	position: relative;
+	display: inline-block;
+	margin-top: 80px;
+	width: 393px;
+	height: 190px;
+	background: url(../images/situation_Text_bg.png) 0 0 no-repeat;
+	box-sizing: border-box;
+}
+.situation .text * {
+	display: inline-block;
+	width: 346px;
+	text-align: center;
+}
+.situation:before {
+	display: block;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 600px;
+	height: 71px;
+	background: url(../images/situation_bg.png) 0 0 no-repeat;
+}
+.situation.success:before {
+	height: 95px;
+	background-position-y: -71px;
+}
+.situation .text {
+	display: none;
+}
+.situation .text.on {
+	display: block;
+	float: left;
+}
+.situation .text strong {
+	font-size: 36px;
+	color: #e8612c;
+	margin: 37px 0 19px;
+	line-height: 1;
+	font-family: 'NotoSansM';
+}
+.situation .text span {
+	font-size: 22px;
+	color: #938985;
+	line-height: 30px;
+}
+.situation .text.perfect strong {
+	font-size: 48px;
+	line-height: 60px;
+	margin: 0;
+}
+.situation .text.perfect strong span {
+	font-size: 40px;
+	color: #e8842c;
+	margin-top: 46px;
+	clear: both;
+	font-family: 'NotoSansM';
+}
+/* final stage */
+.clearbox.final .character.success {
+	width: 185px;
+}
+.clearbox.final .character.success span {
+	margin: 104px 0 0 40px;
+}
+.clearbox.final .text.perfect strong span {
+	margin-top: 0;
+}
+.clearbox.final .text.success {
+	width: 415px;
+	height: 252px;
+	margin-top: 70px;
+	background: url(../images/situation_Text_bg2.png) 0 0 no-repeat;	
+}
+.clearbox.final .text.success * {
+	width: 365px;
+}
+.clearbox.final .text.success em {
+	font-size: 22px;
+	color: #696969;
+	margin-left: -10px;
+}
+.clearbox.final .text.success form {
+	text-align: left;
+}
+.clearbox.final .text.success input {
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	border: 2px solid #b7b7b7;
+	box-sizing: border-box;
+	margin: 5px 20px 0 42px;
+	font-size: 17px;
+}
+.clearbox.final .text.success .goCertification {
+	position: absolute;
+	display: inline-block;
+	margin: 0;
+	width: 62px;
+	height: 55px;
+	font-size: 0;
+	border: 0;
+	background: url(../images/btn_cer.png) -4px -4px no-repeat;
+}
+.clearbox.final .goNextStage {
+	display: none;
+}
+.clearbox.final .situation.success .btn-wrap {
+	position: static;
+}
+.clearbox.final .situation.success .btn-wrap li.replay {
+	margin-top: -20px;
+}
+.clearbox.final .text.perfect strong {
+	margin: 10px 0 17px;
+}
+.clearbox.final .text.perfect.on ~ .btn-wrap{
+	display: none;
+} 
+.clearbox.final .text.over strong {
+	margin: 20px 0 0;
+}
+.clearbox.final .text.over strong span {
+	display: inline;
+	font-size: 25px;
+	margin-right: 15px;
+	color: #e8842c;
+}
+.clearbox.final .text.over > span {
+	margin: 20px 0; 
+}
+.clearbox.final .text.perfect.on ~ .close:after {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+
+
+
+/* stage 성공시 */
+
+.situation .btn-wrap {
+	width: 100%;
+	position: static;
+}
+.situation .btn-wrap li {
+	display: inline-block;
+	width: 150px;
+	height: 80px;
+	background-image: url(../images/situation_btn.png);
+	box-sizing: border-box;
+	margin-top: 10px;
+}
+.situation .btn-wrap li.replay {
+	margin: 0 199px 0 50px;
+	padding-left: 45px;
+	background-position-x: left;
+}
+.situation .btn-wrap li.goNextStage {
+	padding-left: 13px;
+	background-position-x: right;
+}
+.situation .btn-wrap li a {
+	font-size: 24px;
+	font-family: 'NotoSansM';
+	color: #fff;
+	line-height: 80px;
+}
+.situation .close {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 39px;
+	height: 39px;
+	background-image: url(../images/situation_close_btn.png);
+	font-size: 0;
+}
+.situation.fail .goNextStage{
+	display: none;
+}
+
+#stage1 .canvaswrapper{background-image: url(../images/background/stage_0001.png);}
+#stage2 .canvaswrapper{background-image: url(../images/background/stage_0002.png);}
+#stage3 .canvaswrapper{background-image: url(../images/background/stage_0003.png);}
+#stage4 .canvaswrapper{background-image: url(../images/background/stage_0004.png);}
+#stage5 .canvaswrapper{background-image: url(../images/background/stage_0005.png);}
+#stage6 .canvaswrapper{background-image: url(../images/background/stage_0006.png);}
+#stage7 .canvaswrapper{background-image: url(../images/background/stage_0007.png);}
+#stage8 .canvaswrapper{background-image: url(../images/background/stage_0008.png);}
+#stage9 .canvaswrapper{background-image: url(../images/background/stage_0009.png);}
+#stage10 .canvaswrapper{background-image: url(../images/background/stage_0010.png);}
+#stage11 .canvaswrapper{background-image: url(../images/background/stage_0011.png);}
+#stage12 .canvaswrapper{background-image: url(../images/background/stage_0015.png);}
+
+#stage7 .canvaswrapper > i:nth-of-type(1) {left: 240px; top: 240px;}
+#stage7 .canvaswrapper > i:nth-of-type(2) {left: 400px; top: 240px;}
+#stage8 .canvaswrapper > i:nth-of-type(1) {left: 320px; top: 240px; z-index: 30;}
+#stage10 .canvaswrapper > i:nth-of-type(1) {left: 160px; top: 160px;}
+#stage10 .canvaswrapper > i:nth-of-type(2) {left: 320px; top: 240px; z-index: 30;}
+
+

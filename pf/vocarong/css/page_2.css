@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url("font.css");
+@import url("reset.css");
+@import url("commonLayout.css");
+
+.step {
+	width: 100%;
+	height: 229px;
+	text-align: center;
+	font-size: 0;
+}
+.step div {
+	display: inline-block;
+	vertical-align: middle;
+}
+[class^='stepBtn_'] {
+	width: 41px;
+	height: 85px;
+	background: url(../images/contents_move_btn.png) no-repeat;
+	background-size: 41px;
+}
+.stepBtn_prev {
+	transform: rotate(180deg);
+}
+.learn {
+	margin: 0 30px 0 49px;
+	width: 983px;
+	height: 234px;
+	background: url(../images/learn_base.png) no-repeat;
+	background-size: 983px;
+	font-family: NotoSansCJKkr_Bold;
+	position: relative;
+}
+[class^='learn_'] {
+	position: absolute;
+	height: 49px;
+	line-height: 37px;
+}
+.learn_word {
+	top: 82px;
+	left: 76px;
+	font-family: NotoSansCJKkr_Black;
+	font-size: 47px;
+	color: #ca1412;
+}
+.qu {
+	width: 28px;
+	height: 49px;
+	background: url(../images/qu_icon.png) no-repeat;
+	background-size: 28px;
+	position: absolute;
+	top: 79px;
+	left: 218px;
+}
+.learn_mean {
+	top: 167px;
+	left: 170px;
+	font-size: 45px;
+	color: #d04e24;
+}
+.word_txt {
+	position: absolute;
+	top: 112px;
+	right: 51px;
+	width: 355px;
+	height: 50px;
+	font-family: NotoSansCJKkr_Black;
+	font-size: 47px;
+	color: #333;
+	border: none;
+	background-color: transparent;
+	cursor: default;
+	outline: none;
+}
+.answer {
+	position: absolute;
+	top: 16px;
+	right: 17px;
+	width: 58px;
+	height: 58px;
+}
+.circle {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 58px;
+	height: 58px;
+	background: url(../images/O.png) no-repeat center center;
+	background-size: 58px;
+}
+.cross {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 58px;
+	height: 58px;
+	background: url(../images/X.png) no-repeat center center;
+	background-size: 58px;
+}
+.voca {
+	margin-left: 98px;
+	position: relative;
+}
+.rinda_char2 {
+	margin-left: 42px;
+	width: 129px;
+	height: 121px;
+	background: url(../images/re/rinda_char2.png) no-repeat;
+	background-size: 129px;
+	position: relative;
+}
+.rinda_char2:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 304px;
+	height: 99px;
+	background: url(../images/myvoca_title.png) no-repeat;
+	background-size: 304px;
+	top: 92px;
+	left: -11px;
+}
+.word {
+	margin-top: 14px;
+	padding: 60px 0 0 47px;
+	width: 1403px;
+	height: 341px;
+	background: url(../images/voca_base.png) no-repeat;
+	background-size: 1403px;
+}
+.word:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.word_card {
+	float: left;
+	margin: 0 7px 16px 0;
+	width: 322px;
+	height: 109px;
+	background: url(../images/voca_words.png) no-repeat;
+	background-size: 322px;
+	text-align: center;
+	font-family: NotoSansCJKkr_Black;
+	font-size: 43px;
+	line-height: 109px;
+	color: #773a23;
+	position: relative;
+}
+.word_card_over {
+	width: 335px;
+	height: 123px;
+	background: url(../images/voca_words_over.png) no-repeat;
+	background-size: 335px;
+	position: absolute;
+	top: -6px;
+	left: -7px;
+}
+.vocaBtn {
+	position: absolute;
+	top: 448px;
+	left: 543px;
+	font-size: 0;
+}
+[class^='vocaBtn_'] {
+	display: inline-block;
+	width: 138px;
+	height: 56px;
+}
+.vocaBtn_prev {
+	margin-right: 42px;
+	background: url(../images/voca_btn_enabled.png) no-repeat;
+	background-size: 138px;
+}
+.vocaBtn_next {
+	background: url(../images/voca_btn_enabled.png) no-repeat;
+	background-size: 138px;
+	transform: rotate(180deg);
+}
+.vocaBtn_prev_over {
+	background: url(../images/voca_btn.png) no-repeat;
+	background-size: 138px;
+	transform: rotate(180deg);
+}
+.vocaBtn_next_over {
+	background: url(../images/voca_btn.png) no-repeat;
+	background-size: 138px;
+	transform: rotate(0deg);
+}

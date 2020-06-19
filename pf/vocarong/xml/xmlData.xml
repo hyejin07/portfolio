@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<lesson1>
+		<scene1 question="1. 다음 문장을 읽고, 모르는 단어를 드래그하여 아래의 단어장에 모아 두세요." subject="Pre-check">
+			<voca mp3="audio/sentence/sentence_1.mp3" sentence="나는 자주 아침을 먹습니다."><![CDATA[I^often^have^breakfast.]]></voca>
+			<voca mp3="audio/sentence/sentence_2.mp3" sentence="그녀의 아버지는 요리하기를 즐깁니다."><![CDATA[Her^father^enjoys^cooking.]]></voca>
+			<voca mp3="audio/sentence/sentence_3.mp3" sentence="그녀와 나는 서로의 옆집에 삽니다."><![CDATA[She^and^I^live^next door to^each other.]]></voca>
+			<voca mp3="audio/sentence/sentence_4.mp3" sentence="그 서점은 그 빵집 뒤에 있습니다."><![CDATA[The^bookstore^is^behind^the^bakery.]]></voca>
+			<voca mp3="audio/sentence/sentence_5.mp3" sentence="그녀는 나의 반 친구입니다."><![CDATA[She^is^my^classmate.]]></voca>
+			<voca mp3="audio/sentence/sentence_6.mp3" sentence="그녀는 그녀의 할머니를 방문합니다."><![CDATA[She^visits^her^grandmother.]]></voca>
+			<voca mp3="audio/sentence/sentence_7.mp3" sentence="그는 좋은 미소를 가졌습니다."><![CDATA[He^has^a^nice^smile.]]></voca>
+			<voca mp3="audio/sentence/sentence_8.mp3" sentence="우리는 우리의 방을 청소합니다."><![CDATA[We^clean^our^room.]]></voca>
+			<voca mp3="audio/sentence/sentence_9.mp3" sentence="나는 그보다 키가 더 큽니다."><![CDATA[I^am^taller^than^him.]]></voca>
+			<voca mp3="audio/sentence/sentence_10.mp3" sentence="그의 어머니는 안경을 씁니다."><![CDATA[His^mother^wears^glasses.]]></voca>
+		</scene1>
+		<scene2 question="2. 단어장의 단어를 뜻과 함께 학습해 보세요." subject="Learning">
+			<voca mp3='audio/word/word_1.mp3' example='I speek in english.' sentence='나는, 내가'><![CDATA[I]]></voca>
+			<voca mp3='audio/word/word_2.mp3' example='We often go to the theater.' sentence='자주, 흔히'><![CDATA[often]]></voca>
+			<voca mp3='audio/word/word_3.mp3' example='I want to have a pizza.' sentence='가지다, 먹다'><![CDATA[have]]></voca>
+			<voca mp3='audio/word/word_4.mp3' example='She wants eggs for breakfast.' sentence='아침 식사'><![CDATA[breakfast]]></voca>
+			<voca mp3='audio/word/word_5.mp3' example='This is a her dog.' sentence='그녀의'><![CDATA[her]]></voca>
+			<voca mp3='audio/word/word_6.mp3' example='He is the father of two children.' sentence='아빠'><![CDATA[father]]></voca>
+			<voca mp3='audio/word/word_7.mp3' example='They enjoyed themselves at the party.' sentence='즐기다'><![CDATA[enjoy]]></voca>
+			<voca mp3='audio/word/word_8.mp3' example='He is an expert in cooking.' sentence='요리'><![CDATA[cooking]]></voca>
+			<voca mp3='audio/word/word_9.mp3' example='She is the mother of three children.' sentence='그녀는, 그녀가'><![CDATA[she]]></voca>
+			<voca mp3='audio/word/word_10.mp3' example='She and I go to school together.' sentence='그리고'><![CDATA[and]]></voca>
+			<voca mp3='audio/word/word_11.mp3' example='My aunt lives with her daughter.' sentence='살다'><![CDATA[live]]></voca>
+			<voca mp3='audio/word/word_12.mp3' example='He lives next door to us.' sentence='이웃의'><![CDATA[next door to]]></voca>
+			<voca mp3='audio/word/word_13.mp3' example='They looked each other and laughed.' sentence='서로'><![CDATA[each other]]></voca>
+			<voca mp3='audio/word/word_14.mp3' example='The cat is kind to me.' sentence='그'><![CDATA[the]]></voca>
+			<voca mp3='audio/word/word_15.mp3' example='The taxi stops at the bookstore.' sentence='서점'><![CDATA[bookstore]]></voca>
+			<voca mp3='audio/word/word_16.mp3' example='My school is near here. ' sentence='있다, 이다'><![CDATA[be]]></voca>
+			<voca mp3='audio/word/word_17.mp3' example="Who's the boy standing behind you?" sentence='~ 뒤에'><![CDATA[behind]]></voca>
+			<voca mp3='audio/word/word_18.mp3' example='She ran to the bakery.' sentence='빵집'><![CDATA[bakery]]></voca>
+			<voca mp3='audio/word/word_19.mp3' example='My dog likes me.' sentence='나의'><![CDATA[my]]></voca>
+			<voca mp3='audio/word/word_20.mp3' example='I met my classmate on the street.' sentence='반 친구'><![CDATA[classmate]]></voca>
+			<voca mp3='audio/word/word_21.mp3' example='I need to visit my dentist.' sentence='방문하다'><![CDATA[visit]]></voca>
+			<voca mp3='audio/word/word_5.mp3' example='She shows me her notebook.' sentence='그녀의'><![CDATA[her]]></voca>
+			<voca mp3='audio/word/word_23.mp3' example='My grandmother is a kind person.' sentence='할머니'><![CDATA[grandmother]]></voca>
+			<voca mp3='audio/word/word_24.mp3' example='He is older than me.' sentence='그는, 그가'><![CDATA[he]]></voca>
+			<voca mp3='audio/word/word_25.mp3' example='An apple is on the table.' sentence='하나의'><![CDATA[a]]></voca>
+			<voca mp3='audio/word/word_26.mp3' example='You look very nice today.' sentence='좋은'><![CDATA[nice]]></voca>
+			<voca mp3='audio/word/word_27.mp3' example='She looked at me with a smile.' sentence='미소'><![CDATA[smile]]></voca>
+			<voca mp3='audio/word/word_28.mp3' example='We enjoy running.' sentence='우리는, 우리가'><![CDATA[we]]></voca>
+			<voca mp3='audio/word/word_29.mp3' example='He cleaned the building twice a week.' sentence='청소하다'><![CDATA[clean]]></voca>
+			<voca mp3='audio/word/word_30.mp3' example='Our house is far from the downtown.' sentence='우리의'><![CDATA[our]]></voca>
+			<voca mp3='audio/word/word_31.mp3' example='This room seems comfy.' sentence='방'><![CDATA[room]]></voca>
+			<voca mp3='audio/word/word_32.mp3' example="I'm taller than my brother." sentence='더 큰'><![CDATA[taller]]></voca>
+			<voca mp3='audio/word/word_33.mp3' example='This apple is bigger than a pear.' sentence='~ 보다'><![CDATA[than]]></voca>
+			<voca mp3='audio/word/word_34.mp3' example='She calls him behind.' sentence='그를'><![CDATA[him]]></voca>
+			<voca mp3='audio/word/word_35.mp3' example='We help out with his homework.' sentence='그의'><![CDATA[his]]></voca>
+			<voca mp3='audio/word/word_36.mp3' example='She gives a gift to her mother.' sentence='엄마'><![CDATA[mother]]></voca>
+			<voca mp3='audio/word/word_37.mp3' example="I'm wearing a new coat." sentence='입다, 쓰다, 신다'><![CDATA[wear]]></voca>
+			<voca mp3='audio/word/word_38.mp3' example='He polishes his glasses.' sentence='안경'><![CDATA[glasses]]></voca>
+			<voca mp3='audio/word/word_39.mp3' example='They enjoyed themselves at the party.' sentence='즐기다'><![CDATA[enjoys]]></voca>
+			<voca mp3='audio/word/word_40.mp3' example='My school is near here. ' sentence='있다, 이다'><![CDATA[is]]></voca>
+			<voca mp3='audio/word/word_41.mp3' example='I need to visit my dentist.' sentence='방문하다'><![CDATA[visits]]></voca>
+			<voca mp3='audio/word/word_42.mp3' example='I want to have a pizza.' sentence='가지다, 먹다'><![CDATA[has]]></voca>
+			<voca mp3='audio/word/word_43.mp3' example="I'm wearing a new coat." sentence='입다, 쓰다, 신다'><![CDATA[wears]]></voca>
+		</scene2>
+		<scene3 question="3. 학습 단어를 나만의 단어장에서 확인해 보세요." subject="Voca list">
+			<voca mp3='audio/word/word_1.mp3' example='I speek in english.' sentence='나는, 내가'><![CDATA[I]]></voca>
+			<voca mp3='audio/word/word_2.mp3' example='We often go to the theater.' sentence='자주, 흔히'><![CDATA[often]]></voca>
+			<voca mp3='audio/word/word_3.mp3' example='I want to have a pizza.' sentence='가지다, 먹다'><![CDATA[have]]></voca>
+			<voca mp3='audio/word/word_4.mp3' example='She wants eggs for breakfast.' sentence='아침 식사'><![CDATA[breakfast]]></voca>
+			<voca mp3='audio/word/word_5.mp3' example='This is a her dog.' sentence='그녀의'><![CDATA[her]]></voca>
+			<voca mp3='audio/word/word_6.mp3' example='He is the father of two children.' sentence='아빠'><![CDATA[father]]></voca>
+			<voca mp3='audio/word/word_7.mp3' example='They enjoyed themselves at the party.' sentence='즐기다'><![CDATA[enjoy]]></voca>
+			<voca mp3='audio/word/word_8.mp3' example='He is an expert in cooking.' sentence='요리'><![CDATA[cooking]]></voca>
+			<voca mp3='audio/word/word_9.mp3' example='She is the mother of three children.' sentence='그녀는, 그녀가'><![CDATA[she]]></voca>
+			<voca mp3='audio/word/word_10.mp3' example='She and I go to school together.' sentence='그리고'><![CDATA[and]]></voca>
+			<voca mp3='audio/word/word_11.mp3' example='My aunt lives with her daughter.' sentence='살다'><![CDATA[live]]></voca>
+			<voca mp3='audio/word/word_12.mp3' example='He lives next door to us.' sentence='이웃의'><![CDATA[next door to]]></voca>
+			<voca mp3='audio/word/word_13.mp3' example='They looked each other and laughed.' sentence='서로'><![CDATA[each other]]></voca>
+			<voca mp3='audio/word/word_14.mp3' example='The cat is kind to me.' sentence='그'><![CDATA[the]]></voca>
+			<voca mp3='audio/word/word_15.mp3' example='The taxi stops at the bookstore.' sentence='서점'><![CDATA[bookstore]]></voca>
+			<voca mp3='audio/word/word_16.mp3' example='My school is near here. ' sentence='있다, 이다'><![CDATA[be]]></voca>
+			<voca mp3='audio/word/word_17.mp3' example="Who's the boy standing behind you?" sentence='~ 뒤에'><![CDATA[behind]]></voca>
+			<voca mp3='audio/word/word_18.mp3' example='She ran to the bakery.' sentence='빵집'><![CDATA[bakery]]></voca>
+			<voca mp3='audio/word/word_19.mp3' example='My dog likes me.' sentence='나의'><![CDATA[my]]></voca>
+			<voca mp3='audio/word/word_20.mp3' example='I met my classmate on the street.' sentence='반 친구'><![CDATA[classmate]]></voca>
+			<voca mp3='audio/word/word_21.mp3' example='I need to visit my dentist.' sentence='방문하다'><![CDATA[visit]]></voca>
+			<voca mp3='audio/word/word_5.mp3' example='She shows me her notebook.' sentence='그녀의'><![CDATA[her]]></voca>
+			<voca mp3='audio/word/word_23.mp3' example='My grandmother is a kind person.' sentence='할머니'><![CDATA[grandmother]]></voca>
+			<voca mp3='audio/word/word_24.mp3' example='He is older than me.' sentence='그는, 그가'><![CDATA[he]]></voca>
+			<voca mp3='audio/word/word_25.mp3' example='An apple is on the table.' sentence='하나의'><![CDATA[a]]></voca>
+			<voca mp3='audio/word/word_26.mp3' example='You look very nice today.' sentence='좋은'><![CDATA[nice]]></voca>
+			<voca mp3='audio/word/word_27.mp3' example='She looked at me with a smile.' sentence='미소'><![CDATA[smile]]></voca>
+			<voca mp3='audio/word/word_28.mp3' example='We enjoy running.' sentence='우리는, 우리가'><![CDATA[we]]></voca>
+			<voca mp3='audio/word/word_29.mp3' example='He cleaned the building twice a week.' sentence='청소하다'><![CDATA[clean]]></voca>
+			<voca mp3='audio/word/word_30.mp3' example='Our house is far from the downtown.' sentence='우리의'><![CDATA[our]]></voca>
+			<voca mp3='audio/word/word_31.mp3' example='This room seems comfy.' sentence='방'><![CDATA[room]]></voca>
+			<voca mp3='audio/word/word_32.mp3' example="I'm taller than my brother." sentence='더 큰'><![CDATA[taller]]></voca>
+			<voca mp3='audio/word/word_33.mp3' example='This apple is bigger than a pear.' sentence='~ 보다'><![CDATA[than]]></voca>
+			<voca mp3='audio/word/word_34.mp3' example='She calls him behind.' sentence='그를'><![CDATA[him]]></voca>
+			<voca mp3='audio/word/word_35.mp3' example='We help out with his homework.' sentence='그의'><![CDATA[his]]></voca>
+			<voca mp3='audio/word/word_36.mp3' example='She gives a gift to her mother.' sentence='엄마'><![CDATA[mother]]></voca>
+			<voca mp3='audio/word/word_37.mp3' example="I'm wearing a new coat." sentence='입다, 쓰다, 신다'><![CDATA[wear]]></voca>
+			<voca mp3='audio/word/word_38.mp3' example='He polishes his glasses.' sentence='안경'><![CDATA[glasses]]></voca>
+			<voca mp3='audio/word/word_39.mp3' example='They enjoyed themselves at the party.' sentence='즐기다'><![CDATA[enjoys]]></voca>
+			<voca mp3='audio/word/word_40.mp3' example='My school is near here. ' sentence='있다, 이다'><![CDATA[is]]></voca>
+			<voca mp3='audio/word/word_41.mp3' example='I need to visit my dentist.' sentence='방문하다'><![CDATA[visits]]></voca>
+			<voca mp3='audio/word/word_42.mp3' example='I want to have a pizza.' sentence='가지다, 먹다'><![CDATA[has]]></voca>
+			<voca mp3='audio/word/word_43.mp3' example="I'm wearing a new coat." sentence='입다, 쓰다, 신다'><![CDATA[wears]]></voca>
+		</scene3>
+		
+		<scene4 question="4. 인벤토리에 단어를 채우고, 맞는 단어를 찾아 문장을 완성하세요." subject="Game">
+			<voca mp3="audio/sentence/sentence_1.mp3" sentence="나는 자주 아침을 먹습니다.">
+				<dic_all question="2" correct="1"><![CDATA[I^often^have^breakfast.]]></dic_all>
+				<dic><![CDATA[often]]></dic>
+				<dic><![CDATA[many times]]></dic>
+				<dic><![CDATA[always]]></dic>
+				<dic><![CDATA[never]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_2.mp3" sentence="그녀의 아버지는 요리하기를 즐깁니다.">
+				<dic_all question="3" correct="4"><![CDATA[Her^father^enjoys^cooking.]]></dic_all>
+				<dic><![CDATA[enjoying]]></dic>
+				<dic><![CDATA[enjoy]]></dic>
+				<dic><![CDATA[enjoyed]]></dic>
+				<dic><![CDATA[enjoys]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_3.mp3" sentence="그녀와 나는 서로의 옆집에 삽니다.">
+				<dic_all question="7" correct="2"><![CDATA[She^and^I^live^next^door^to each other^.]]></dic_all>
+				<dic><![CDATA[each other]]></dic>
+				<dic><![CDATA[to each other]]></dic>
+				<dic><![CDATA[from each other]]></dic>
+				<dic><![CDATA[by each other]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_4.mp3" sentence="그 서점은 그 빵집 뒤에 있습니다.">
+				<dic_all question="4" correct="1"><![CDATA[The^bookstore^is^behind^the^bakery.]]></dic_all>
+				<dic><![CDATA[behind]]></dic>
+				<dic><![CDATA[back]]></dic>
+				<dic><![CDATA[in front of]]></dic>
+				<dic><![CDATA[next]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_5.mp3" sentence="그녀는 나의 반 친구입니다.">
+				<dic_all question="4" correct="4"><![CDATA[She^is^my^classmate^.]]></dic_all>
+				<dic><![CDATA[friend]]></dic>
+				<dic><![CDATA[cousin]]></dic>
+				<dic><![CDATA[teacher]]></dic>
+				<dic><![CDATA[classmate]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_6.mp3" sentence="그녀는 그녀의 할머니를 방문합니다.">
+				<dic_all question="2" correct="2"><![CDATA[She^visits^her^grandmother.]]></dic_all>
+				<dic><![CDATA[meets]]></dic>
+				<dic><![CDATA[visits]]></dic>
+				<dic><![CDATA[makes]]></dic>
+				<dic><![CDATA[takes]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_7.mp3" sentence="그는 좋은 미소를 가졌습니다.">
+				<dic_all question="5" correct="4"><![CDATA[He^has^a^nice^smile^.]]></dic_all>
+				<dic><![CDATA[laugh]]></dic>
+				<dic><![CDATA[giggle]]></dic>
+				<dic><![CDATA[chuckle]]></dic>
+				<dic><![CDATA[smile]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_8.mp3" sentence="우리는 우리의 방을 청소합니다.">
+				<dic_all question="3" correct="2"><![CDATA[We^clean^our^room.]]></dic_all>
+				<dic><![CDATA[my]]></dic>
+				<dic><![CDATA[our]]></dic>
+				<dic><![CDATA[ours]]></dic>
+				<dic><![CDATA[mine]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_9.mp3" sentence="나는 그보다 키가 더 큽니다.">
+				<dic_all question="3" correct="2"><![CDATA[I^am^taller^than^him.]]></dic_all>
+				<dic><![CDATA[tall]]></dic>
+				<dic><![CDATA[taller]]></dic>
+				<dic><![CDATA[the tallest]]></dic>
+				<dic><![CDATA[bigger]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_10.mp3" sentence="그의 어머니는 안경을 씁니다.">
+				<dic_all question="4" correct="1"><![CDATA[His^mother^wears^glasses^.]]></dic_all>
+				<dic><![CDATA[glasses]]></dic>
+				<dic><![CDATA[glass]]></dic>
+				<dic><![CDATA[a glass]]></dic>
+				<dic><![CDATA[two glasses]]></dic>
+			</voca>
+		</scene4>
+		
+		<scene5 question="5. 문장 순서를 알맞게 배열하세요." subject="Writing">
+			<voca mp3="audio/sentence/sentence_1.mp3" sentence="나는 자주 아침을 먹습니다.">
+				<dic_all><![CDATA[I^often^have^breakfast.]]></dic_all>
+				<dic><![CDATA[I]]></dic>
+				<dic><![CDATA[often]]></dic>
+				<dic><![CDATA[have]]></dic>
+				<dic><![CDATA[breakfast]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_2.mp3" sentence="그녀의 아버지는 요리하기를 즐깁니다.">
+				<dic_all><![CDATA[Her father^enjoys^cooking.]]></dic_all>
+				<dic><![CDATA[Her father]]></dic>
+				<dic><![CDATA[enjoys]]></dic>
+				<dic><![CDATA[cooking]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_3.mp3" sentence="그녀와 나는 서로의 옆집에 삽니다.">
+				<dic_all><![CDATA[She and I^live^next door to^each other.]]></dic_all>
+				<dic><![CDATA[She and I]]></dic>
+				<dic><![CDATA[live]]></dic>
+				<dic><![CDATA[next door to]]></dic>
+				<dic><![CDATA[each other]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_4.mp3" sentence="그 서점은 그 빵집 뒤에 있습니다.">
+				<dic_all><![CDATA[The bookstore^is^behind^the bakery.]]></dic_all>
+				<dic><![CDATA[The bookstore]]></dic>
+				<dic><![CDATA[is]]></dic>
+				<dic><![CDATA[behind]]></dic>
+				<dic><![CDATA[the bakery]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_5.mp3" sentence="그녀는 나의 반 친구입니다.">
+				<dic_all><![CDATA[She^is^my classmate.]]></dic_all>
+				<dic><![CDATA[She]]></dic>
+				<dic><![CDATA[is]]></dic>
+				<dic><![CDATA[my classmate]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_6.mp3" sentence="그녀는 그녀의 할머니를 방문합니다.">
+				<dic_all><![CDATA[She^visits^her grandmother.]]></dic_all>
+				<dic><![CDATA[She]]></dic>
+				<dic><![CDATA[visits]]></dic>
+				<dic><![CDATA[her grandmother]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_7.mp3" sentence="그는 좋은 미소를 가졌습니다.">
+				<dic_all><![CDATA[He^has^a nice smile.]]></dic_all>
+				<dic><![CDATA[He]]></dic>
+				<dic><![CDATA[has]]></dic>
+				<dic><![CDATA[a nice smile]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_8.mp3" sentence="우리는 우리의 방을 청소합니다.">
+				<dic_all><![CDATA[We^clean^our room.]]></dic_all>
+				<dic><![CDATA[We]]></dic>
+				<dic><![CDATA[clean]]></dic>
+				<dic><![CDATA[our room]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_9.mp3" sentence="나는 그보다 키가 더 큽니다.">
+				<dic_all><![CDATA[I^am^taller^than him.]]></dic_all>
+				<dic><![CDATA[I]]></dic>
+				<dic><![CDATA[am]]></dic>
+				<dic><![CDATA[taller]]></dic>
+				<dic><![CDATA[than him]]></dic>
+			</voca>
+			<voca mp3="audio/sentence/sentence_10.mp3" sentence="그의 어머니는 안경을 씁니다.">
+				<dic_all><![CDATA[His mother^wears^glasses.]]></dic_all>
+				<dic><![CDATA[His mother]]></dic>
+				<dic><![CDATA[wears]]></dic>
+				<dic><![CDATA[glasses]]></dic>
+			</voca>
+		</scene5>
+	</lesson1>
+	<lesson2>
+		<scene1 question="1. 다음 문장을 읽고, 모르는 단어를 드래그하여 아래의 단어장에 모아 두세요." subject="Pre-check">
+		</scene1>
+		<scene2 question="2. 단어장의 단어를 뜻과 함께 학습해 보세요." subject="Learning">
+		</scene2>
+		<scene3 question="3. 학습 단어를 나만의 단어장에서 확인해 보세요." subject="Voca list">
+		</scene3>
+		<scene4 question="4. 인벤토리에 단어를 채우고, 맞는 단어를 찾아 문장을 완성하세요." subject="Game">
+		</scene4>s
+		<scene5 question="5. 문장 순서를 알맞게 배열하세요." subject="Writing">
+		</scene5>
+	</lesson2>
+	<lesson3>
+		<scene1 question="1. 다음 문장을 읽고, 모르는 단어를 드래그하여 아래의 단어장에 모아 두세요." subject="Pre-check">
+		</scene1>
+		<scene2 question="2. 단어장의 단어를 뜻과 함께 학습해 보세요." subject="Learning">
+		</scene2>
+		<scene3 question="3. 학습 단어를 나만의 단어장에서 확인해 보세요." subject="Voca list">
+		</scene3>
+		<scene4 question="4. 인벤토리에 단어를 채우고, 맞는 단어를 찾아 문장을 완성하세요." subject="Game">
+		</scene4>s
+		<scene5 question="5. 문장 순서를 알맞게 배열하세요." subject="Writing">
+		</scene5>
+	</lesson3>
+	<lesson4>
+		<scene1 question="1. 다음 문장을 읽고, 모르는 단어를 드래그하여 아래의 단어장에 모아 두세요." subject="Pre-check">
+		</scene1>
+		<scene2 question="2. 단어장의 단어를 뜻과 함께 학습해 보세요." subject="Learning">
+		</scene2>
+		<scene3 question="3. 학습 단어를 나만의 단어장에서 확인해 보세요." subject="Voca list">
+		</scene3>
+		<scene4 question="4. 인벤토리에 단어를 채우고, 맞는 단어를 찾아 문장을 완성하세요." subject="Game">
+		</scene4>s
+		<scene5 question="5. 문장 순서를 알맞게 배열하세요." subject="Writing">
+		</scene5>
+	</lesson4>
+	<lesson5>
+		<scene1 question="1. 다음 문장을 읽고, 모르는 단어를 드래그하여 아래의 단어장에 모아 두세요." subject="Pre-check">
+		</scene1>
+		<scene2 question="2. 단어장의 단어를 뜻과 함께 학습해 보세요." subject="Learning">
+		</scene2>
+		<scene3 question="3. 학습 단어를 나만의 단어장에서 확인해 보세요." subject="Voca list">
+		</scene3>
+		<scene4 question="4. 인벤토리에 단어를 채우고, 맞는 단어를 찾아 문장을 완성하세요." subject="Game">
+		</scene4>s
+		<scene5 question="5. 문장 순서를 알맞게 배열하세요." subject="Writing">
+		</scene5>
+	</lesson5>
+	<lesson6>
+		<scene1 question="1. 다음 문장을 읽고, 모르는 단어를 드래그하여 아래의 단어장에 모아 두세요." subject="Pre-check">
+		</scene1>
+		<scene2 question="2. 단어장의 단어를 뜻과 함께 학습해 보세요." subject="Learning">
+		</scene2>
+		<scene3 question="3. 학습 단어를 나만의 단어장에서 확인해 보세요." subject="Voca list">
+		</scene3>
+		<scene4 question="4. 인벤토리에 단어를 채우고, 맞는 단어를 찾아 문장을 완성하세요." subject="Game">
+		</scene4>s
+		<scene5 question="5. 문장 순서를 알맞게 배열하세요." subject="Writing">
+		</scene5>
+	</lesson6>
+	<lesson7>
+		<scene1 question="1. 다음 문장을 읽고, 모르는 단어를 드래그하여 아래의 단어장에 모아 두세요." subject="Pre-check">
+		</scene1>
+		<scene2 question="2. 단어장의 단어를 뜻과 함께 학습해 보세요." subject="Learning">
+		</scene2>
+		<scene3 question="3. 학습 단어를 나만의 단어장에서 확인해 보세요." subject="Voca list">
+		</scene3>
+		<scene4 question="4. 인벤토리에 단어를 채우고, 맞는 단어를 찾아 문장을 완성하세요." subject="Game">
+		</scene4>s
+		<scene5 question="5. 문장 순서를 알맞게 배열하세요." subject="Writing">
+		</scene5>
+	</lesson7>
+	<lesson8>
+		<scene1 question="1. 다음 문장을 읽고, 모르는 단어를 드래그하여 아래의 단어장에 모아 두세요." subject="Pre-check">
+		</scene1>
+		<scene2 question="2. 단어장의 단어를 뜻과 함께 학습해 보세요." subject="Learning">
+		</scene2>
+		<scene3 question="3. 학습 단어를 나만의 단어장에서 확인해 보세요." subject="Voca list">
+		</scene3>
+		<scene4 question="4. 인벤토리에 단어를 채우고, 맞는 단어를 찾아 문장을 완성하세요." subject="Game">
+		</scene4>s
+		<scene5 question="5. 문장 순서를 알맞게 배열하세요." subject="Writing">
+		</scene5>
+	</lesson8>
+	<lesson9>
+		<scene1 question="1. 다음 문장을 읽고, 모르는 단어를 드래그하여 아래의 단어장에 모아 두세요." subject="Pre-check">
+		</scene1>
+		<scene2 question="2. 단어장의 단어를 뜻과 함께 학습해 보세요." subject="Learning">
+		</scene2>
+		<scene3 question="3. 학습 단어를 나만의 단어장에서 확인해 보세요." subject="Voca list">
+		</scene3>
+		<scene4 question="4. 인벤토리에 단어를 채우고, 맞는 단어를 찾아 문장을 완성하세요." subject="Game">
+		</scene4>s
+		<scene5 question="5. 문장 순서를 알맞게 배열하세요." subject="Writing">
+		</scene5>
+	</lesson9>
+	<lesson10>
+		<scene1 question="1. 다음 문장을 읽고, 모르는 단어를 드래그하여 아래의 단어장에 모아 두세요." subject="Pre-check">
+		</scene1>
+		<scene2 question="2. 단어장의 단어를 뜻과 함께 학습해 보세요." subject="Learning">
+		</scene2>
+		<scene3 question="3. 학습 단어를 나만의 단어장에서 확인해 보세요." subject="Voca list">
+		</scene3>
+		<scene4 question="4. 인벤토리에 단어를 채우고, 맞는 단어를 찾아 문장을 완성하세요." subject="Game">
+		</scene4>s
+		<scene5 question="5. 문장 순서를 알맞게 배열하세요." subject="Writing">
+		</scene5>
+	</lesson10>
+		
+</data>

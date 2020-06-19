@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	position: relative;
+	left: 50%;
+	margin-left: -640px;
+	width: 1280px;
+	height: 800px;
+	overflow: hidden;
+	transform-origin: top;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+iframe {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+/*lessonNav*/
+#lessonNav {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 12;
+}
+.progress-wrap {
+	position: absolute;
+	left: 49px;
+	top: 27px;
+	height: 40px;
+	padding-right: 17px;
+	border-radius: 20px;
+	background: url(../images/nav/progress_bg.png) right top no-repeat;	
+}
+.progress-wrap:before {
+	position: absolute;
+	left: -23px;
+	top: -7px;
+	width: 53px;
+	height: 53px;
+	content: "";
+	background-image: url(../images/nav/progress_char.png);
+	z-index: 1;	
+}
+.progress {
+	position: relative;
+	padding-top: 5px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.progress li{
+	float: left;
+	margin-right: 9px;
+	width: 30px;
+	height: 31px;
+	background-image: url(../images/nav/progress_icon_0002.png);
+	font-size: 0;	
+}
+.progress li:nth-child(1) {
+	margin-left: 39px;
+}
+.progress li:last-child{
+	margin-right: 0;
+}
+.progress li.on{
+	background-image: url(../images/nav/progress_icon_0001.png);	
+}
+.bar-wrap {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0;
+}
+.bar-wrap img{
+	position: absolute;
+	top: 11px;
+	left: -185px;
+	transition: left 0.3s;
+}
+.bar-wrap img.lesson-1 {left: -145px;}
+.bar-wrap img.lesson-2 {left: -106px;}
+.bar-wrap img.lesson-3 {left: -68px;}
+.bar-wrap img.lesson-4 {left: -28px;}
+.bar-wrap img.lesson-5 {left: 15px;}
+
+.lesson-btn li {
+	position: absolute;
+	width: 64px;
+	height: 65px;
+	top: 719px;
+}
+.lesson-btn li a {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.lesson-btn li a img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.lesson-btn .prev {
+	left: 20px;
+}
+.lesson-btn .next {
+	right: 20px;
+}

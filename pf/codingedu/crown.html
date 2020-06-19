@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=768, height=1024" name="viewport" />
+	<title>인증서</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/ntry.js" charset="utf-8"></script>
+  <!-- <script type="text/javascript" src="js/printThis.js" charset="utf-8"></script> -->
+</head>
+<body class="crown-body">
+	<div class="container">
+		<!-- header -->
+		<header>
+			<h1><a href="ntry.html"><img src="images/logo.png" alt="coding education"/></a></h1>
+		</header>
+		<!-- //header -->
+		<aside class="greeting">
+			<strong>축하 드립니다!</strong>
+			<p>기본과정을 성공적으로 마쳤습니다.</p>
+		</aside>
+		<section class="certification-wrap">
+			<div id="certification" class="certification">
+				<h3>인 증 서</h3>
+				<strong class="name"></strong>
+				<p>
+					위 사람은 <em>동전 모으기</em> 과정에 참가하여</br>
+					모든 과정을 이수하였으므로 본 인증서를 수여함.
+
+					<span class="today">2018년 4월 17일</span>
+				</p>
+				<em>coding education</em>
+				
+			</div>
+			<ul class="ect">
+				<li class="btn link"><a href="#">http://codingeducation/study/</a></li>
+				<li class="btn print"><a href="#"></a></li>
+			</ul>
+	</section>
+	
+	<script>
+		var value="";
+		window.onload = function() {
+			var url = decodeURIComponent(location.href);
+			var parameter = url.split('?');
+			var str_param = parameter[1].split('&');
+			for( var i=0; i<str_param.length; i++) {
+				var param = str_param[i].split('=');
+				value = param[1];
+				value = value.replace(/[+]/g,' ');
+				value = value.replace(/[#]/g,'');
+				console.log(value);
+				if(value != ''){
+					$('.certification .name').text(value);
+				}
+			}
+		}
+	</script>
+</body>
+</html>

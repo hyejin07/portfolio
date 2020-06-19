@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>start page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link href="css/page_0.css" type="text/css" rel="stylesheet">
+	<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/common_i.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/sound.js"></script>
+</head>
+<style>
+    html {height: 100%; overflow: hidden;}
+</style>
+<body class="container">
+    <script>
+        TweenMax.to($('.container'), 0, {opacity:0});
+        TweenMax.to($('.container'), 0.5, {delay:0.5, opacity:1});
+    </script>
+	<div class="lesson_1">
+        <div class="bg"></div>
+        <div class="head">
+    		<a href="#" class="start_btn">start</a>
+            <div class="trailMap"></div>
+            <div class="option"></div>
+            <div class="close"></div>
+        </div>
+        <div class="opacity blind"></div>
+            <div class="popup">
+                <div class="popup_char1 blind">
+                    <div class="popup_title1">학습할 단어를 선택하지 않았습니다!</div>
+                    <p>Voca list로 넘어갈까요?</p>
+                    <div class="popup_btn_yes1"></div>
+                    <div class="popup_btn_no1"></div>
+                </div>
+                <div class="popup_char2 blind">
+                    <div class="popup_title2">MY VOCA의 단어를 모두 학습하지 않았습니다.</div>
+                    <p>이전 페이지로 돌아갈까요?</p>
+                    <div class="popup_btn_yes"></div>
+                    <div class="popup_btn_no"></div>
+                </div>
+                <div class="popup_char3 blind">
+                    <p>MY VOCA의 단어를 삭제하시겠습니까?</p>
+                    <div class="popup_btn_yes"></div>
+                    <div class="popup_btn_no"></div>
+                </div>
+                <div class="popup_char4 blind">
+                    <div class="popup_title4">문제의 답을 모두 입력하지 않으셨습니다.</div>
+                    <p>이전 페이지로 돌아갈까요?</p>
+                    <div class="popup_btn_yes"></div>
+                    <div class="popup_btn_no"></div>
+                </div>
+                <div class="popup_char5 blind">
+                    <div class="popup_title5">현재 단원의 학습을 완료하였습니다!</div>
+                    <p>다음 단원을 학습하시겠습니까?</p>
+                    <div class="popup_btn_continue"></div>
+                    <div class="popup_btn_close"></div>
+                </div>
+                <!-- close -->
+                <div class="popup_char6 blind">
+                    <div class="popup_title6">학습을 종료하시겠습니까?</div>
+                    <p></p>
+                    <div class="popup_btn_yes6"></div>
+                    <div class="popup_btn_no6"></div>
+                </div>
+                <!-- map -->
+                <div class="map_popup blind">
+                    <div class="lesson_map">
+                        <div class="present"></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="exit_btn">
+                        <img src="images/map_exit_btn.png" alt="">
+                    </div>
+                </div>
+                <!-- options -->
+                <div class="options_popup blind">
+                    <div class="options_exit_btn">
+                        <img src="images/store_popup_exit.png" alt="exit_button">
+                    </div>
+                    <div class="setting_btn">
+                        <ul>
+                            <li class="text">배경음</li>
+                            <li class="setting_btn1">
+                                <img src="images/setting_on.png" alt="">
+                            </li>
+                            <li class="text">효과음</li>
+                            <li class="setting_btn2">
+                                <img src="images/setting_off.png" alt="">
+                            </li>
+                        </ul>
+                    </div>
+                    <ul>
+                        <li class="options_btn">
+                            <img src="images/options_btn_1.png" alt="튜토리얼 버튼">
+                        </li>
+                        <li class="options_btn">
+                            <img src="images/options_btn_2.png" alt="이용약관 버튼">
+                        </li>
+                        <li class="options_btn">
+                            <img src="images/options_btn_3.png" alt="개인정보 보호정책 버튼">
+                        </li>
+                        <li class="options_btn">
+                            <img src="images/options_btn_4.png" alt="도움말 및 지원 버튼">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+    </div>
+</body>
+</html>

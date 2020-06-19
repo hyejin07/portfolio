@@ -1,0 +1,24 @@
+@font-face {
+	font-family:'NotoSerif';
+	src:url(../fonts/NotoSerif-Regular.woff);
+}
+@font-face {
+	font-family:'Courgette';
+	src:url(../fonts/Courgette-Regular.woff);
+}
+@font-face {
+	font-family:'NanumSR';
+	src:url(../fonts/NanumSquareR.woff);
+}
+@font-face {
+	font-family:'NanumSB';
+	src:url(../fonts/NanumSquareB.woff);
+}
+@font-face {
+	font-family:'NanumSEB';
+	src:url(../fonts/NanumSquareEB.woff);
+}
+@font-face {
+	font-family:'NanumGothic';
+	src:url(../fonts/NanumGothic.woff);
+}

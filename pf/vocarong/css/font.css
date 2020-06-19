@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: NanumSquareRoundEB;
+	src: url("../font/NanumSquareRoundEB.woff");
+}
+@font-face {
+	font-family: NanumGothicBold;
+	src: url("../font/NanumGothicBold_3.woff");
+}
+@font-face {
+	font-family: NanumGothicExtraBold;
+	src: url("../font/NanumGothicExtraBold.woff"),
+	url("../font/NanumGothicExtraBold.eot");
+}
+@font-face {
+	font-family: NotoSansCJKkr_Black;
+	src: url("../font/NotoSansCJKkr-Black.woff");
+}
+@font-face {
+	font-family: NotoSansCJKkr_Bold;
+	src: url("../font/NotoSansCJKkr-Bold.woff");
+}
+@font-face {
+	font-family: NanumSquareB;
+	src: url("../font/NanumSquareB.woff");
+}
+@font-face {
+	font-family: NanumSquareEB;
+	src: url("../font/NanumSquareEB.woff");
+}
+@font-face {
+	font-family: NanumSquareR;
+	src: url("../font/NanumSquareR.woff");
+}

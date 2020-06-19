@@ -1,0 +1,33 @@
+/* font */
+@font-face {
+	font-family:"NotoSansB";	
+	src:url("../fonts/NotoSans-Bold.woff") format("woff");
+}
+@font-face {
+	font-family:"NotoSansM";	
+	src:url("../fonts/NotoSans-Medium.woff") format("woff");
+}
+@font-face {
+	font-family:"NotoSansR";
+	src:url("../fonts/NotoSans-Regular.woff") format("woff");
+}
+@font-face {
+	font-family:"NotoSansL";
+	src:url("../fonts/NotoSans-Light.woff") format("woff");
+}
+@font-face {
+	font-family:"nanumSL";	
+	src:url("../fonts/NanumSquareL.woff") format("woff");
+}
+@font-face {
+	font-family:"nanumS";	
+	src:url("../fonts/NanumSquareR.woff") format("woff");
+}
+@font-face {
+	font-family:"nanumSB";	
+	src:url("../fonts/NanumSquareB.woff") format("woff");
+}
+@font-face {
+	font-family:"nanumSEB";	
+	src:url("../fonts/NanumSquareEB.woff") format("woff");
+}

@@ -1,0 +1,199 @@
+@charset "UTF-8";
+@import url("font.css");
+@import url("reset.css");
+@import url("commonLayout.css");
+
+.num_panel {
+	margin: 19px 0 0 1276px;
+	padding: 0 25px;
+	width: 138px;
+	height: 46px;
+	background: url(../images/contents_num_panel.png) no-repeat;
+	background-size: 138px;
+	color: #b16008;
+	font-family: NanumSquareRoundEB;
+	font-size: 30px;
+}
+.num_panel span {
+	height: 46px;
+	line-height: 46px;
+}
+.stepNum {
+	color: #ffead4;
+}
+.stepSlide {
+	margin-top: 7px;
+	width: 100%;
+	height: 147px;
+	text-align: center;
+	font-size: 0;
+}
+.stepSlide div {
+	display: inline-block;
+	vertical-align: middle;
+}
+[class^='stepBtn_'] {
+	width: 41px;
+	height: 85px;
+	background: url(../images/contents_move_btn.png) no-repeat;
+	background-size: 41px;
+}
+.stepBtn_prev {
+	transform: rotate(180deg);
+}
+.sentens {
+	margin: 0 15px;
+	width: 1272px;
+	height: 147px;
+	background: url(../images/sentens_base.png) no-repeat;
+	background-size: 1272px;
+	font-family: NotoSansCJKkr_Black;
+	font-size: 60px;
+	color: #56360f;
+	line-height: 147px;
+}
+.voca {
+	margin: 9px 0 0 98px;
+	position: relative;
+}
+.rinda_char1 {
+	margin-left: 42px; 
+	width: 129px;
+	height: 121px;
+	background: url(../images/rinda_char1.png) no-repeat;
+	background-size: 129px;
+	position: relative;
+}
+.rinda_char1:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 304px;
+	height: 99px;
+	background: url(../images/myvoca_title.png) no-repeat;
+	background-size: 304px;
+	top: 93px;
+	left: -11px;
+}
+.word {
+	margin-top: 15px;
+	padding: 60px 0 0 47px;
+	width: 1403px;
+	height: 341px;
+	background: url(../images/voca_base.png) no-repeat;
+	background-size: 1403px;
+}
+.word:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.word_card {
+	float: left;
+	margin: 0 7px 16px 0;
+	width: 322px;
+	height: 109px;
+	background: url(../images/voca_words.png) no-repeat;
+	background-size: 322px;
+	text-align: center;
+	font-family: NotoSansCJKkr_Black;
+	font-size: 43px;
+	line-height: 109px;
+	color: #773a23;
+}
+.vocaBtn {
+	position: absolute;
+	top: 449px;
+	left: 543px;
+	font-size: 0;
+}
+[class^='vocaBtn_'] {
+	display: inline-block;
+	width: 138px;
+	height: 56px;
+}
+.vocaBtn_prev {
+	margin-right: 42px;
+	background: url(../images/voca_btn_enabled.png) no-repeat;
+	background-size: 138px;
+}
+.vocaBtn_next {
+	background: url(../images/voca_btn_enabled.png) no-repeat;
+	background-size: 138px;
+	transform: rotate(180deg);
+}
+.vocaBtn_prev_over {
+	background: url(../images/voca_btn.png) no-repeat;
+	background-size: 138px;
+	transform: rotate(180deg);
+}
+.vocaBtn_next_over {
+	background: url(../images/voca_btn.png) no-repeat;
+	background-size: 138px;
+	transform: rotate(0deg);
+}
+
+.popup {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.popup_char1 {
+	padding-top: 53px;
+	width: 765px;
+	height: 328px;
+	background: url(../images/popup_1_base.png) no-repeat;
+	background-size: 765px;
+	position: relative;
+	top: 348px;
+	left: 423px;
+	font-size: 0;
+}
+.popup_char1:before {
+	content: '';
+	display: block;
+	width: 227px;
+	height: 345px;
+	position: absolute;
+	top: -17px;
+	left: -84px;
+	background: url(../images/popup_char1.png) no-repeat;
+	background-size: 227px;
+}
+.popup_char1 p {
+	padding: 23px 0 0 218px;
+	font-family: NanumSquareEB;
+	font-size: 38px;
+	color: #fff;
+}
+.popup_title {
+	margin-left: 29px;
+	padding-left: 139px; 
+	width: 693px;
+	height: 67px;
+	background: url(../images/popup_1_title_base.png) no-repeat;
+	background-size: 693px;
+	line-height: 67px;
+	font-family: NanumSquareEB;
+	font-size: 33px;
+	color: #c92e2f;
+}
+[class^='popup_btn_'] {
+	margin-top: 30px;
+	display: inline-block;
+	width: 162px;
+	height: 72px;
+}
+.popup_btn_yes {
+	margin-left: 221px;
+	background: url(../images/popup_yes_btn.png) no-repeat;
+	background-size: 162px;
+}
+.popup_btn_no {
+	margin-left: 56px;
+	background: url(../images/popup_no_btn.png) no-repeat;
+	background-size: 162px;
+}

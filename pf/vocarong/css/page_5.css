@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@import url("font.css");
+@import url("reset.css");
+@import url("commonLayout.css");
+
+.num_panel {
+	margin: 20px 0 0 1276px;
+	padding: 0 25px;
+	width: 138px;
+	height: 46px;
+	background: url(../images/contents_num_panel.png) no-repeat;
+	background-size: 138px;
+	color: #b16008;
+	font-family: NanumSquareRoundEB;
+	font-size: 30px;
+}
+.num_panel span {
+	height: 46px;
+	line-height: 46px;
+}
+.stepNum {
+	color: #ffead4;
+}
+.step {
+	margin-top: 9px;
+	width: 100%;
+	/*height: 147px;*/
+	text-align: center;
+	font-size: 0;
+}
+.step div {
+	display: inline-block;
+	vertical-align: middle;
+}
+[class^='stepBtn_'] {
+	width: 41px;
+	height: 85px;
+	background: url(../images/contents_move_btn.png) no-repeat;
+	background-size: 41px;
+}
+.stepBtn_prev {
+	transform: rotate(180deg);
+}
+.sentens {
+	margin: 0 16px 0 13px;
+	width: 1277px;
+}
+.question {
+	width: 1250px;
+	height: 88px;
+	background: url(../images/writing_top_base.png) no-repeat;
+	background-size: 1250px;
+	text-align: center;
+	font-family: NotoSansCJKkr_Bold;
+	font-size: 44px;
+	color: #fed724;
+	line-height: 88px;
+}
+.answerBox {
+	margin-top: 15px;
+	width: 1277px;
+	height: 121px;
+	background: url(../images/writing_base.png) no-repeat;
+	background-size: 1277px;
+	text-align: center;
+	font-family: NotoSansCJKkr_Black;
+	font-size: 53px;
+	color: #fff;
+	line-height: 121px;
+}
+.voca {
+	margin: 32px 0 0 141px;
+	position: relative;
+}
+.rinda_char1 {
+	margin-left: 24px; 
+	width: 129px;
+	height: 124px;
+	background: url(../images/re/rinda_char3.png) no-repeat;
+	background-size: 129px;
+	position: relative;
+}
+.rinda_char1:after {
+	content: '';
+	display: block;
+	position: absolute;
+	width: 558px;
+	height: 80px;
+	background: url(../images/rinda_bubble.png) no-repeat;
+	background-size: 558px;
+	top: 32px;
+	left: 135px;
+}
+.word {
+	/*margin-top: -4px;*/
+	padding: 28px 0 0 27px;
+	width: 1319px;
+	height: 314px;
+	background: url(../images/writing_bottom_base.png) no-repeat;
+	background-size: 1319px;
+	position: absolute;
+	top: 120px;
+	left: 0;
+}
+.word:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.word_card {
+	float: left;
+	margin: 0 18px 16px 0;
+	width: 409px;
+	height: 116px;
+	background: url(../images/writing_bottom_btn.png) no-repeat;
+	background-size: 409px;
+	text-align: center;
+	font-family: NotoSansCJKkr_Black;
+	font-size: 43px;
+	line-height: 116px;
+	color: #6d3925;
+}
+.word_card_over {
+	width: 409px;
+	height: 116px;
+	background: url(../images/writing_bottom_btn_over.png) no-repeat;
+	background-size: 409px;
+}

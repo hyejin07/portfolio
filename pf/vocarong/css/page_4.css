@@ -1,0 +1,248 @@
+@charset "UTF-8";
+@import url("font.css");
+@import url("reset.css");
+@import url("commonLayout.css");
+
+.num_panel {
+	margin: 19px 0 0 1276px;
+	padding: 0 25px;
+	width: 138px;
+	height: 46px;
+	background: url(../images/contents_num_panel.png) no-repeat;
+	background-size: 138px;
+	color: #b16008;
+	font-family: NanumSquareRoundEB;
+	font-size: 30px;
+}
+.num_panel span {
+	height: 46px;
+	line-height: 46px;
+}
+.stepNum {
+	color: #ffead4;
+}
+.stepSlide {
+	margin-top: 2px;
+	width: 100%;
+	text-align: center;
+	font-size: 0;
+}
+.stepSlide div {
+	display: inline-block;
+	vertical-align: middle;
+}
+[class^='stepBtn_'] {
+	width: 41px;
+	height: 85px;
+	background: url(../images/contents_move_btn.png) no-repeat;
+	background-size: 41px;
+	cursor: pointer;
+}
+[class^='stepBtn_']:active{
+	opacity: .5;
+}
+.stepBtn_prev {
+	transform: rotate(180deg);
+}
+.sentens {
+	margin: 0 15px;
+	padding-top: 40px;
+	width: 1272px;
+	height: 222px;
+	background: url(../images/game_sentens_base.png) no-repeat;
+	background-size: 1272px;
+}
+.korean{
+	color: #d04e24;
+	font-family: NotoSansCJKkr_Bold;
+	font-size: 43px;
+}
+.english{
+	color: #56360f;
+	font-family: NotoSansCJKkr_Black;
+	font-size: 46px;
+}
+.english p{
+	display: inline-block;
+}
+.answer_box{
+	position: relative;
+	/* width: 418px; */
+	height: 93px;
+	padding: 6px 47px 0 47px;
+	/* background: url(../images/game_sentens_q_base.png) 0 0 / 100% no-repeat; */
+	background-color: #ffefcd;
+	border: 5px solid #c6a581;
+	border-radius: 20px;
+}
+.answer_box p.answer{
+	color: #ca1412;
+	opacity: 0;
+}
+.answer_box .question{
+	width: 28px;
+	height: 49px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin:-25px 0 0 -14px;
+}
+ .voca {
+	 width: 1265px;
+	margin: 24px auto 0 auto;
+	position: relative;
+}
+
+.coin_box{
+	width: 227px;
+	height: 71px;
+	background: url(../images/coin_panel.png) 0 0 / 227px no-repeat;
+	position: absolute;
+	top: 0;
+	right: 5px;
+
+}
+.coin_box span{
+	display: block;
+	color: #fff5ec;
+	font-family: "NanumSquareEB";
+	font-size: 31px;
+	/*margin-left: 120px;*/
+	line-height: 71px;
+	text-align: right;
+	padding-right: 20px;
+}
+.inventory, .vocaBtn{
+	float: left;
+}
+.vocaBtn{
+	margin: 122px 63px 0 0;
+}
+.vocaBtn li:first-child{
+	margin-bottom: 26px;
+}
+.vocaBtn img{
+	width: 319px;
+}
+.inventory{
+	margin-top: 8px;
+	width: 883px;
+	height: 393px;
+	padding: 118px 0 0 48px;
+	text-align: center;
+	background: url(../images/inven_base.png) 0 0 / 883px no-repeat;
+}
+.inventory p{
+	width: 379px;
+	height: 109px;
+	float: left;
+	background: url(../images/inven_word_base.png) 0 0 / 379px no-repeat;
+	color: #773a23;
+	font: 42px/109px "NotoSansCJKkr_Black";
+}
+p.word_card_01,
+p.word_card_02{
+	margin-bottom: 16px;
+}
+p.word_card_01,
+p.word_card_03{
+	margin-right: 14px;
+}
+.word_card_over{
+	background: url(../images/writing_bottom_btn_over.png) no-repeat !important;
+	background-size: 379px !important;
+}
+
+.store{
+	width: 722px;
+	height: 834px;
+	background: url(../images/store_char.png) 531px 38px/118px no-repeat,
+	 			url(../images/store_pop_base.png) 0 0/722px no-repeat;
+	position: absolute;
+	top: -420px;
+	left: 280px;
+	padding-left: 20px;
+	z-index: 999;
+}
+.store h3{
+	width: 350px;
+	height: 93px;
+	background: url(../images/store_title.png) 0 0/350px no-repeat;
+	margin: 0 auto;
+	margin-top: -36px;
+	font-size: 0;
+	line-height: 0;
+}
+.store .coin{
+	width: 227px;
+	height: 71px;
+	background: url(../images/coin_panel.png) 0 0/227px no-repeat;
+}
+.coin p{
+	color : #fff;
+	font-size: 31px;
+	height: 71px;
+	line-height: 71px;
+	padding-right: 20px;
+	text-align: right;
+	font-family: NanumSquareEB;
+
+}
+.store ul{
+	width: 664px;
+	height: 608px;
+	background: url(../images/store_pop_base2.png) 0 0/664px no-repeat;
+	margin: 2px 0 0 4px;
+	padding: 29px 0 0 22px;
+}
+.storeList{
+	width: 623px;
+	height: 139px;
+	background: url(../images/store_list_box.png) center/609px no-repeat;
+	padding:0 24px 0 31px;
+	margin-bottom: 2px;
+
+}
+storeList::after{
+	display: block;
+	content: '';
+	clear: fixed;
+}
+.storeList .ex{
+	font-family: NotoSansCJKkr_Black;
+	font-size: 42px;
+	color: #cb400b;
+	height: 139px;
+	line-height: 139px;
+	float: left;
+
+}
+.storeList .gold{
+	width: 179px;
+	height: 56px;
+	background: url(../images/store_gold.png) 0 0/179px no-repeat;
+	float: right;
+	display: inline;
+	margin-top:44px;
+
+}
+.selectLline{
+	background: url(../images/store_select_line.png) 0 0/623px no-repeat,
+				url(../images/store_list_box.png) center/609px no-repeat;
+}
+.storeList:last-child{
+	margin-bottom: 0;
+}
+.store .completeBtn{
+	width: 139px;
+	height: 66px;
+	font-size: 0;
+	line-height: 0;
+	background: url(../images/store_select_btn.png) 0 0/139px no-repeat;
+	margin: 9px auto;
+}
+.store .exitBtn{
+	position: absolute;
+	top: -12px;
+	left: 647px;
+}

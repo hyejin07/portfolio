@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <config></config>
+  
+  <scene no="1" title="title1" name="name1">
+    <![CDATA[1번씬]]>
+    <img url="img/hom1"><![CDATA[1번 이미지]]></img>
+    <img url="img/hom2"><![CDATA[2번 이미지]]></img>
+    <img url="img/hom3"><![CDATA[3번 이미지]]></img>
+    <img url="img/hom4"><![CDATA[4번 이미지]]></img>
+    <img url="img/hom5"><![CDATA[5번 이미지]]></img>    
+  </scene>
+  
+	<scene no="2" title="title2" name="name1">
+    <![CDATA[2번씬]]>
+    
+  </scene>
+  
+	<scene no="3" title="title3" name="name1">
+    <![CDATA[3번씬]]>
+    
+  </scene>
+  
+	<scene no="4" title="title4" name="name1">
+    <![CDATA[4번씬]]>
+    
+  </scene>
+  
+	<scene no="5" title="title5" name="name1">
+    <![CDATA[5번씬]]>
+    
+  </scene>
+  
+  <data title="attribute"><![CDATA[node]]></data>
+</data>

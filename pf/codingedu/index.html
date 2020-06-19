@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=768, height=1024" name="viewport" />
+	<title>코딩교육</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/ntry.js" charset="utf-8"></script>
+</head>
+<body>
+	<div class="container">
+		<!-- header -->
+		<header>
+			<h1><a href="#"><img src="images/logo.png" alt="coding education"/></a></h1>
+
+			<div class="stage-box">
+				<a class="step" href="#">STEP 1</a>
+				<ul class="stage cf">
+					<li class="on"><a href="#stage1">1</a></li>
+					<li><a href="#stage2">2</a></li>
+					<li><a href="#stage3">3</a></li>
+					<li><a href="#stage4">4</a></li>
+					<li><a href="#stage5">5</a></li>
+					<li><a href="#stage6">6</a></li>
+					<li><a href="#stage7">7</a></li>
+					<li><a href="#stage8">8</a></li>
+					<li><a href="#stage9">9</a></li>
+					<li><a href="#stage10">10</a></li>
+					<li><a href="#stage11">11</a></li>
+					<li><a href="#stage12">12</a></li>
+					<li class="crown"><a href="crown.html" onclick="return false;"><span>인증서</span></a></li>
+				</ul>
+			</div>
+		</header>
+		<!-- //header -->
+
+		<!-- stage1 -->
+		<div id="stage1" class="stage-container active">
+			<div class="missionGuide">
+				<div class="mission-guide-bgwrap">
+					<div class="guide-title">
+						<h2>STEP1 미션 안내</h2>
+						<a href="#" class="close">close button</a>
+					</div>
+					<div class="explain-box">
+						<ul>
+							<li>1. 블록 꾸러미에서 원하는 블록을 꺼내어  조립소에서 연결해 보세요.</li>
+							<li>2. 조립이 끝난 후 <span>‘시작하기’</span> 버튼 클릭! </li>
+							<li>3. 캐릭터가 조립한 블록대로 움직여요.</li>
+							<li>4. 필요없는 블록은 휴지통에 버릴 수 있어요.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>안녕하세요^^ 저는 kkyu~ 라고해요.<br/> 동전을 잘 모을 수 있도록 도와주세요.</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>1단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj right arrow">오른쪽</span>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>1단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage2">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage1 -->
+
+		<!-- stage2 -->
+		<div id="stage2" class="stage-container">
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>동전에 내 왼쪽에 있어요 왼쪽으로 가봐요.</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>2단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">							
+							<span class="obj left arrow">왼쪽</span>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>2단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage3">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage2 -->
+
+		<!-- stage3 -->
+		<div id="stage3" class="stage-container">
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>동전이 위쪽에 있어요 위쪽으로 가 봐요!</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>3단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj top arrow">위쪽</span>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>3단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage4">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage3 -->
+
+		<!-- stage4 -->
+		<div id="stage4" class="stage-container">
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>동전을 찾으러 아래로 내려가 봐요.</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>4단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj bottom arrow">아래쪽</span>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>4단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage5">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage4 -->
+
+		<!-- stage5 -->
+		<div id="stage5" class="stage-container">
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>동전이 있는 곳까지 안내 해줄래요?</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>5단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj right arrow">오른쪽</span>
+							<span class="obj left arrow">왼쪽</span>
+							<span class="obj top arrow">위쪽</span>
+							<span class="obj bottom arrow">아래쪽</span>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>5단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage6">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage5 -->
+
+		<!-- stage6 -->
+		<div id="stage6" class="stage-container">
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>동전을 찾으러 가봐요.</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>6단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj right arrow">오른쪽</span>
+							<span class="obj left arrow">왼쪽</span>
+							<span class="obj top arrow">위쪽</span>
+							<span class="obj bottom arrow">아래쪽</span>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>6단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage7">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage6 -->
+
+		<!-- stage7 -->
+		<div id="stage7" class="stage-container">
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+					<i class="candy"></i>
+					<i class="candy"></i>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>솜사탕이 있어요! 솜사탕을 먹고가요.</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>7단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj right arrow">오른쪽</span>
+							<span class="obj left arrow">왼쪽</span>
+							<span class="obj top arrow">위쪽</span>
+							<span class="obj bottom arrow">아래쪽</span>
+							<span class="obj sugarcandy">솜사탕먹기</span>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>7단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<p class="candy-pick fail text">
+						<strong>솜사탕이 없어요</strong>
+						<span>거긴 솜사탕 없어요.<br/>솜사탕을 다시 찾아보아요.</span>
+					</p>
+					<p class="candy-miss fail text">
+						<strong>솜사탕을 지나왔어요</strong>
+						<span>솜사탕을 다시 찾아보아요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage8">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage7 -->
+
+		<!-- stage8 -->
+		<div id="stage8" class="stage-container">
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+					<i class="candy"></i>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>달콤한 솜사탕을 먹고 동전을 찾으러 가봐요.</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>8단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj right arrow">오른쪽</span>
+							<span class="obj left arrow">왼쪽</span>
+							<span class="obj top arrow">위쪽</span>
+							<span class="obj bottom arrow">아래쪽</span>
+							<span class="obj sugarcandy">솜사탕먹기</span>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>8단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<p class="candy-pick fail text">
+						<strong>솜사탕이 없어요</strong>
+						<span>거긴 솜사탕 없어요.<br/>솜사탕을 다시 찾아보아요.</span>
+					</p>
+					<p class="candy-miss fail text">
+						<strong>솜사탕을 지나왔어요</strong>
+						<span>솜사탕을 다시 찾아보아요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage9">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage8 -->
+
+		<!-- stage9 -->
+		<div id="stage9" class="stage-container">
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>동전이 멀리 있어요! 가장 빠른 길로 동전을<br/>찾으러 가봐요.</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>9단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj right arrow">오른쪽</span>
+							<span class="obj left arrow">왼쪽</span>
+							<span class="obj top arrow">위쪽</span>
+							<span class="obj bottom arrow">아래쪽</span>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>9단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage10">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage9 -->
+
+		<!-- stage10 -->
+		<div id="stage10" class="stage-container">
+
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+					<i class="candy"></i>
+					<i class="candy"></i>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>가는길에 솜사탕을 모두 모으고 가봐요.</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>10단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj right arrow">오른쪽</span>
+							<span class="obj left arrow">왼쪽</span>
+							<span class="obj top arrow">위쪽</span>
+							<span class="obj bottom arrow">아래쪽</span>
+							<span class="obj sugarcandy">솜사탕먹기</span>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>10단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<p class="candy-pick fail text">
+						<strong>솜사탕이 없어요</strong>
+						<span>거긴 솜사탕 없어요.<br/>솜사탕을 다시 찾아보아요.</span>
+					</p>
+					<p class="candy-miss fail text">
+						<strong>솜사탕을 지나왔어요</strong>
+						<span>솜사탕을 다시 찾아보아요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage11">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage10 -->
+
+		<!-- stage11 -->
+		<div id="stage11" class="stage-container">
+			<div class="missionGuide repeat-mission">
+				<div class="mission-guide-bgwrap">
+					<div class="guide-title">
+						<h2>반복 미션 안내</h2>
+						<a href="#" class="close">close button</a>
+					</div>
+					<div class="explain-box">
+						<p><span>1. 반복 블록 안에 화살표를 누르면 숫자 목록을 볼 수 있어요.</span></p>
+					</div>
+				</div>
+			</div>
+
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span><i>반복 블록</i>을 사용해서 좀더 쉽게 가봐요.</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>11단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj right arrow">오른쪽</span>
+							<div class="obj repeat">
+								<span class="side-bar"></span>
+								<span class="order-number"> 3 </span>
+								<ul class="select-box">
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10</li>
+								</ul>
+								<span>반복</span>
+							</div>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox">
+				<div class="situation">
+					<div class="character">
+						<span>character</span>
+					</div>
+					<p class="perfect success text">
+						<strong><span>11단계</span>목표성공!</strong>
+					</p>
+					<p class="over success text">
+						<strong>목표성공!</strong>
+						<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+					</p>
+					<p class="lost fail text">
+						<strong>길을 잃었어요</strong>
+						<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+					</p>
+					<p class="not-enough fail text">
+						<strong>갈 수 없어요</strong>
+						<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+					</p>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="#stage12">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage11 -->
+
+		<!-- stage12 -->
+		<div id="stage12" class="stage-container">
+			<aside>
+				<div class="canvaswrapper">
+					<span class="char-wrap"><i class="char"></i></span>
+				</div>
+				<a class="canvas-btn start" href="#"><span>시작하기</span></a>
+				<div class="goal-wrap">
+					<i>목표</i>
+					<span>동전이 정말 멀리 있어요! <i>반복 블록</i>을 사용하면 쉽게 도착 할 수 있을 거에요~</span>
+				</div>
+			</aside>
+
+			<section>
+				<!-- title -->
+				<div class="title">
+					<h2>12단계 : 미로순차</h2>
+					<ul class="block-number">
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+						<li><span>star</span></li>
+					</ul>
+				</div>
+				<!-- //title -->
+				<!-- assembly-station -->
+				<div class="assembly-station">
+					<div class="blockpackage">
+						<h3>블록 꾸러미</h3>
+						<div class="drag">
+							<span class="obj right arrow">오른쪽</span>
+							<span class="obj left arrow">왼쪽</span>
+							<span class="obj top arrow">위쪽</span>
+							<span class="obj bottom arrow">아래쪽</span>
+							<div class="obj repeat">
+								<span class="side-bar"></span>
+								<span class="order-number"> 3 </span>
+								<ul class="select-box">
+									<li>1</li>
+									<li>2</li>
+									<li>3</li>
+									<li>4</li>
+									<li>5</li>
+									<li>6</li>
+									<li>7</li>
+									<li>8</li>
+									<li>9</li>
+									<li>10</li>
+								</ul>
+								<span>반복</span>
+							</div>
+						</div>
+					</div>
+					<div class="collection">
+						<h3>조립소</h3>
+						<div class="drop">
+						</div>
+					</div>
+				</div>
+				<!-- //assembly-station -->
+			</section>
+
+			<!-- clearbox -->
+			<div class="clearbox final">
+				<div class="situation">
+
+					<div class="character">
+						<span>character</span>
+					</div>
+					<form enctype="multipart/form-data" id="submitUsername" action="crown.html" method="get" name="userform">
+						<p class="perfect success text">
+							<strong><span>STEP1</span>미션성공!</strong>
+							<em>인증서에 적힐 이름 입력하기!</em>
+							<input class="winnername" type="text" name="user"/>
+							<input type="submit" class="goCertification">
+							
+						</p>
+						<p class="over success text">
+							<strong><span>STEP1</span>미션성공!</strong>
+							<span>더 적은 블록을 사용해도 동전을<br/>가질 수 있어요! 다시 해볼까요?</span>
+							<em>인증서에 적힐 이름 입력하기!</em>
+							<input class="winnername" type="text" name="user"/>
+							<input type="submit" class="goCertification">
+						</p>
+						<p class="lost fail text">
+							<strong>길을 잃었어요</strong>
+							<span>어디로 가야 하는지<br/>더 알려 주세요~!</span>
+						</p>
+						<p class="not-enough fail text">
+							<strong>갈 수 없어요</strong>
+							<span>그곳으로는 갈 수 없어요.<br/>가야할 길을 다시 알려주세요.</span>
+						</p>
+					</form>
+					<ul class="btn-wrap">
+						<li class="replay"><a href="#">다시하기</a></li>
+						<li class="goNextStage"><a href="crown.html">다음단계</a></li>
+					</ul>
+
+					<a href="#" class="close">닫기</a>
+				</div>
+			</div>
+			<!-- //clearbox -->
+		</div>
+		<!-- //stage12 -->
+
+		<i class="trashbox">trashbox</i>
+	</div>
+	
+</body>
+</html>
