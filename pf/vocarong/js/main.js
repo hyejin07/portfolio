@@ -55,6 +55,10 @@ $(function(){
 	});
 })
 function mainCall(e){
-	console.log('mainCall');
-	window.location.href = 'http://www.geniehye.com/pf/vocarong/main.html';
+
+    var _beforeurl = location.href;
+    var _headurl = _beforeurl.split('/pf')[0];
+    var _afterurl = _headurl + '/pf/vocarong/main.html';
+
+	window.location.href = _afterurl;
 }
