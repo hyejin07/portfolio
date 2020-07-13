@@ -1,59 +1,97 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<title>김혜진 포트폴리오</title>
-	<link rel="stylesheet" href="css/reset.css" class="css">
-	<link rel="stylesheet" href="css/style.css" class="css">
-	<link rel="stylesheet" href="css/font.css" class="css">
-	<script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/common.js"></script>
+    <meta charset="UTF-8">
+
+    <!-- 검색엔진 최적화 및 메타모음 -->
+    <title>김혜진 퍼블리셔 포트폴리오</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="description" content="시멘틱한 코딩을 하는 퍼블리셔 김혜진의 포트폴리오입니다. 웹, 모바일은 기본 반응형페이지, 하이브리드앱 모든 페이지를 만들 수 있습니다.">
+    <meta name="keywords" content="퍼블리셔, 포트폴리오, html5, css, jquery, javascript, 김혜진">
+
+    <meta name="author" content="Kim Hyejin">
+    <meta name="robots" content="index,follow">
+
+
+
+    <!-- styles -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+
+    <!-- fontawesome -->
+<!--    <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">-->
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
 </head>
 <body>
-	<div class="container">
-		<nav id="nav" class="cf">
-			<ul class="cf">
-				<li><a href="#home">home</a></li>
-				<li><a href="#skill">skill</a></li>
-				<li><h1><a href="#">&lt;<span>HJ</span>/&gt;</a></h1></li>
-				<li><a href="#portfolio">work</a></li>
-				<li><a href="#profile">profile</a></li>
-			</ul>
-		</nav>
-		<div id="home">
-			<div class="inner_wrap cf">
-				<div class="intro_picture">
-					<div class="img_wrap">
-						<img class="me" src="images/ami.png" alt="webpublisher kim hye jin">
-					</div>
-				</div>
-				<div class="intro_text">
-					<ul>
-						<li><strong>name.</strong>김혜진</li>
-						<li><strong>phone.</strong>(+82) 010-9452-1513</li>
-						<li><strong>e-mail.</strong>hjk940718@gmail.com</li>
-					</ul>
-				</div>
+  <!--스킵네비게이션-->
+   <div class="skip_navigation">
+       <p><a href="#container">메뉴 건너뛰기</a></p>
+   </div>
 
-			</div>
-		</div>
-		
-		<div id="skill">
-			<div class="inner_wrap pr_text">
-				<strong>100% hard coding!</strong>
-			</div>
-			<div class="skill_4">
+    <header class="cf">
+       <div class="inner_wrap cf">
+			<h1 id="logo">&lt;<span>HJ</span>/&gt;</h1>
 
+<!--			<button type="button" class="btn_hamberger">햄버거버튼이다</button>-->
+
+			<!--네비게이션-->
+			<nav>
+				<ul class="cf">
+					<li><a href="#home">home</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#portfolio">portfolio</a></li>
+					<li><a href="#contact">contact</a></li>
+				</ul>
+			</nav>
+        </div>
+    </header>
+
+    <main id="container">
+       <!-- home -->
+        <section id="home" class="home inner_wrap">
+            <ul>
+                <li>#탄탄한</li>
+                <li>#시멘틱한</li>
+                <li>#같이 일하고 싶은</li>
+            </ul>
+            <h2>
+            	<span>Front-end</span>
+            	<span id="typingMotion">Kim Hyejin</span>
+            </h2>
+
+            <div class="scroll_wrap">
+<!--            	<a href="#">scroll Down</a>-->
+            </div>
+        </section>
+        <!-- //home -->
+        <!-- about -->
+        <section id="about" class="about inner_wrap">
+           <h2 class=sub_title>About</h2>
+            <article class="career">
                 <div class="table_wrap">
-                   <h3>주요 경력 기술</h3>
+                   <h3>경력</h3>
                     <table>
                        <colgroup>
                            <col width="18%">
                            <col width="*">
                        </colgroup>
+                       <thead>
+                       	<tr>
+                       		<th>회사명</th>
+                       		<th>연도</th>
+                       		<th>내용</th>
+                       	</tr>
+                       </thead>
                         <tbody>
                           <tr>
+                              <th rowspan="2">(주)뉴링크</th>
                                <th>2020</th>
                                <td>
                                    - 암호화폐 거래소 서비스 운영 및 유지보수
@@ -67,6 +105,7 @@
                                </td>
                            </tr>
                            <tr>
+                                <th rowspan="2">젤리피쉬월드</th>
                                 <th>2018</th>
                                 <td>
                                     - 천재교육 미술 디지털 교과서 퍼블리싱<br/>
@@ -88,6 +127,12 @@
                            <col width="18%">
                            <col width="*">
                        </colgroup>
+                       <thead>
+                       	<tr>
+                       		<th>구분</th>
+                       		<th>내용</th>
+                       	</tr>
+                       </thead>
                         <tbody>
                           <tr>
                                <th>사용언어</th>
@@ -119,137 +164,492 @@
                         </tbody>
                     </table>
                 </div>
+            </article>
+            <article class="introduce">
+            	<h3>김혜진은 이런 퍼블리셔입니다.</h3>
 
-            </div>
+            	<h4>#탄탄한</h4>
+            	<p>
 
+					모든 웹의 기본은 html 부터 시작입니다.<br/>
+					잘 다져진 땅에 튼튼한 집을 지을 수 있듯이<br/>
+					페이지의 기본인 html부터 잘 짜야 더 좋은 개발을 입힐 것입니다.<br/>
+					깔끔하고 한눈에 보이는 가독성 좋은 코딩, 제가 해드리겠습니다.
+				</p>
+				<h4>#시멘틱한</h4>
+				<p>
 
-		</div>
-		<!-- portfolio -->
-		<div id="portfolio">
-			<h2>portfolio</h2>
+					div의 남용은 이제 그만!<br/>
+					Tag가 자신의 성격에 알맞게 사용되는 것을 지향합니다.<br/>
+					<br/>
+					편한대로 Mark-up하기보다 <br/>
+					사용자의 입장에서 누구나 차별받지 않도록, <br/>
+					웹이 유연하게 해석 할 수 있도록 고민합니다.<br/>
+					<br/>
+					Document가 남용되지 않도록 꼭 필요한 한줄을 쓰기 위해 노력합니다.
+				</p>
+
 <!--
-			<div class="nav_pf">
-				 <ul class="cf">
-					<li class="on" data-item="all">all</li>
-					<li data-item="pc">pc</li>
-					<li data-item="mobile">mobile</li>
-					<li data-item="responsive">responsive</li>
-				</ul>
-			</div>
--->
-			<div class="inner_wrap cf">
-               <div class="pf_9 mobile">
-					<img src="images/pf_thumb/mobile_capay.jpg" alt="vocarong thumbnail">
-					<div class="btn_wrap">
-						<h3><span>hybrid app</span>CAPay</h3>
-						<a href="https://play.google.com/store/apps/details?id=kr.co.capay.user" target="_blank">Android</a>
-						<a href="https://apps.apple.com/kr/app/%EC%BA%A1%ED%8E%98%EC%9D%B4-capay/id1480493364" target="_blank">IOS</a>
-					</div>
-				</div>
+				<h4>#같이 일하고 싶은</h4>
+				<p>
 
-                <div class="pf_8 mobile">
-					<img src="images/pf_thumb/mobile_cashierest.jpg" alt="vocarong thumbnail">
-					<div class="btn_wrap">
-						<h3><span>mobile </span>Cashierest</h3>
-						<a href="https://m.cashierest.com/" target="_blank">Click</a>
+
+					개발하면서 피해갈 수 없고, 어려운 일 중 하나가 '협업'이죠.<br/>
+					<br/>
+					어떻게 하면 유지보수에 최적화된 코딩을 할 수 있을까를<br/>
+					함께 나누고 고민하고 해결책을 찾았을 때의 짜릿함이<br/>
+					이 일을 해 나아가는 원동력입니다.
+				</p>
+-->
+            </article>
+        </section>
+        <!-- about -->
+        <!--portfolio-->
+        <section id="portfolio" class="portfolio inner_wrap">
+            <h2 class="sub_title">Portfolio</h2>
+            <div class="linkbox cf">
+<!--
+            	<a href="worklist.html">
+            		<i class="fas fa-list-ul"></i>
+            		작업목록으로 보기
+            	</a>
+-->
+            </div>
+            <div class="pf_wrapper">
+            	<!--캡페이-->
+            	<article class="pf cf">
+					<div class="left_con">
+						<img class="pc" src="/images/pf_thumb/capay.png" alt="캡페이" />
 					</div>
-				</div>
-			    <div class="pf_7 pc">
-					<img src="images/pf_thumb/pc_cashierest.jpg" alt="vocarong thumbnail">
-					<div class="btn_wrap">
-						<h3><span>pc </span>Cashierest</h3>
-						<a href="https://www.cashierest.com/" target="_blank">Click</a>
+					<div class="right_con">
+						<div class="table_wrap">
+							<table>
+								<colgroup>
+									<col width="30%">
+									<col width="*">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>구분</th>
+										<th>내용</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>프로젝트명</th>
+										<td>캡페이 앱 퍼블리싱</td>
+									</tr>
+									<tr>
+										<th>작업형태</th>
+										<td>
+											하이브리드앱
+										</td>
+									</tr>
+									<tr>
+										<th>사용 툴</th>
+										<td>
+											Visual Studio, SVN
+										</td>
+									</tr>
+									<tr>
+										<th>사용언어</th>
+										<td>
+											Html, CSS, Jquery, Vue.js
+										</td>
+									</tr>
+									<tr>
+										<th>기여도</th>
+										<td>100%</td>
+									</tr>
+								</tbody>
+							</table>
+							<p class="contribute">* 퍼블리싱에 대한 기여도만 표시하였습니다.</p>
+						</div>
+						<a class="shortcut" target="_blank" href="https://apps.apple.com/kr/app/%EC%BA%A1%ED%8E%98%EC%9D%B4-capay/id1480493364">IOS</a>
+						<a class="shortcut" target="_blank" href="https://play.google.com/store/apps/details?id=kr.co.capay.user">Android</a>
 					</div>
-				</div>
-				<div class="pf_6 responsive">
-					<img src="images/pf_thumb/vocarong.jpg" alt="vocarong thumbnail">
-					<div class="btn_wrap">
-						<h3><span>반응형 </span>vocarong</h3>
-						<a href="pf/vocarong/index.html" target="_blank">Click</a>
+				</article>
+
+            	<!--캐셔레스트-->
+            	<article class="pf cf">
+					<div class="left_con">
+						<img class="pc" src="/images/pf_thumb/p_cashierest.png" alt="" />
+						<img class="mobile" src="/images/pf_thumb/m_cashierest.png" alt="" />
 					</div>
-				</div>
-				<div class="pf_5 pc">
-					<img src="images/pf_thumb/codingedu.jpg" alt="codingedu thumbnail">
-					<div class="btn_wrap">
-						<h3><span>pc</span>코딩교육</h3>
-						<a href="pf/codingedu/index.html" target="_blank">Click</a>
+					<div class="right_con">
+						<div class="table_wrap">
+							<table>
+								<colgroup>
+									<col width="30%">
+									<col width="*">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>구분</th>
+										<th>내용</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>프로젝트명</th>
+										<td>캐셔레스트 서비스 운영</td>
+									</tr>
+									<tr>
+										<th>작업형태</th>
+										<td>
+											PC/모바일/하이브리드앱
+										</td>
+									</tr>
+									<tr>
+										<th>사용 툴</th>
+										<td>
+											Visual Studio, SVN
+										</td>
+									</tr>
+									<tr>
+										<th>사용언어</th>
+										<td>
+											Html, CSS, Jquery, Vue.js
+										</td>
+									</tr>
+									<tr>
+										<th>기여도</th>
+										<td>100%</td>
+									</tr>
+								</tbody>
+							</table>
+							<p class="contribute">* 퍼블리싱에 대한 기여도만 표시하였습니다.</p>
+						</div>
+						<a class="shortcut" target="_blank" href="https://www.cashierest.com/">바로가기</a>
 					</div>
-				</div>
-				<div class="pf_4 responsive">
-					<img src="images/pf_thumb/jellyfish.jpg" alt="jellyfish thumbnail">			
-					<div class="btn_wrap">
-						<h3><span>반응형 웹</span>젤리피쉬월드 홈페이지</h3>
-						<a href="pf/jellyfishworld/index.php" target="_blank">Click</a>
+				</article>
+
+            	<!-- 보카롱 -->
+            	<article class="pf cf">
+					<div class="left_con">
+						<img class="pc" src="/images/pf_thumb/p_vocarong.png" alt="" />
+						<img class="tablet" src="/images/pf_thumb/t_vocarong.png" alt="" />
+						<img class="mobile" style="width: 28%;" src="/images/pf_thumb/m_vocarong.png" alt="" />
 					</div>
-				</div>
-				<div class="pf_3 pc">
-					<!-- 천재교육 미술 인터랙션 드래그, 짝맞추기, 선긋기, 클릭 정오답 -->
-					<img src="images/pf_thumb/drag_1.jpg" alt="drag thumbnail">
-					<div class="btn_wrap">
-						<h3><span>pc</span>천재교육 인터랙션1</h3>
-						<a href="pf/interaction/drag_1.html" target="_blank">Click</a>
+					<div class="right_con">
+						<div class="table_wrap">
+							<table>
+								<colgroup>
+									<col width="30%">
+									<col width="*">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>구분</th>
+										<th>내용</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>프로젝트명</th>
+										<td>천재교육 미술교과서 e-book 퍼블리싱</td>
+									</tr>
+									<tr>
+										<th>작업형태</th>
+										<td>
+											앱 내 페이지로 들어가는 형태
+										</td>
+									</tr>
+									<tr>
+										<th>사용 툴</th>
+										<td>
+											sublimeText3
+										</td>
+									</tr>
+									<tr>
+										<th>사용언어</th>
+										<td>
+											Html, CSS, Jquery
+										</td>
+									</tr>
+									<tr>
+										<th>기여도</th>
+										<td>100%</td>
+									</tr>
+								</tbody>
+							</table>
+							<p class="contribute">* 퍼블리싱에 대한 기여도만 표시하였습니다.</p>
+						</div>
+						<a class="shortcut" target="_blank" href="/pf/vocarong/index.html">바로가기</a>
 					</div>
-				</div>
-				<div class="pf_2 pc">
-					<!-- 천재교육 미술 인터랙션 드래그 -->
-					<img src="images/pf_thumb/drag_2.jpg" alt="drag thumbnail">
-					<div class="btn_wrap">
-						<h3><span>pc</span>천재교육 인터랙션2</h3>
-						<a href="pf/interaction/drag_2.html" target="_blank">Click</a>
+				</article>
+
+            	<!--천재 미술 교과서-->
+            	<article class="pf cf">
+					<div class="left_con">
+						<img class="pc" src="/images/pf_thumb/cj_interaction_2.png" alt="천재 미술 교과서">
+						<img class="tablet" src="/images/pf_thumb/cj_interaction_1.png" alt="천재 미술 교과서">
+						<img class="tablet" style="left: auto; right: 50px;" src="/images/pf_thumb/cj_interaction_3.png" alt="천재 미술 교과서">
+
 					</div>
-				</div>
-				<div class="pf_1 pc">
-					<!-- 천재교육 미술 인터랙션 드래그 -->
-					<img src="images/pf_thumb/tab_drag.jpg" alt="drag thumbnail">
-					<div class="btn_wrap">
-						<h3><span>pc</span>천재교육 인터랙션3</h3>
-						<a href="pf/interaction/tab_drag.html" target="_blank">View</a>
+					<div class="right_con">
+						<div class="table_wrap">
+							<table>
+								<colgroup>
+									<col width="30%">
+									<col width="*">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>구분</th>
+										<th>내용</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>프로젝트명</th>
+										<td>천재교육 미술교과서 e-book 퍼블리싱</td>
+									</tr>
+									<tr>
+										<th>작업형태</th>
+										<td>
+											앱 내 페이지로 들어가는 형태
+										</td>
+									</tr>
+									<tr>
+										<th>사용 툴</th>
+										<td>
+											sublimeText3
+										</td>
+									</tr>
+									<tr>
+										<th>사용언어</th>
+										<td>
+											Html, CSS, Jquery
+										</td>
+									</tr>
+									<tr>
+										<th>기여도</th>
+										<td>90%</td>
+									</tr>
+								</tbody>
+							</table>
+							<p class="contribute">* 퍼블리싱에 대한 기여도만 표시하였습니다.</p>
+						</div>
+						<a class="shortcut" target="_blank" href="/pf/interaction/drag_1.html">바로가기1</a>
+						<a class="shortcut" target="_blank" href="/pf/interaction/drag_2.html">바로가기2</a>
+						<a class="shortcut" target="_blank" href="/pf/interaction/tab_drag.html">바로가기3</a>
 					</div>
-				</div>
-				<!-- <div class="pf_10 mobile">
-					<img src="images/pf_thumb/tab_drag.jpg" alt="drag thumbnail">
-					<div class="btn_wrap">
-						<h3><span></span></h3>
-						<a href="pf/interaction/tab_drag.html" target="_blank">View</a>
+				</article>
+
+         		<!-- 코딩교육 -->
+            	<article class="pf cf">
+					<div class="left_con">
+						<img class="pc" src="/images/pf_thumb/coding_edu.png" alt="천재 미술 교과서">
 					</div>
-				</div> -->
+					<div class="right_con">
+						<div class="table_wrap">
+							<table>
+								<colgroup>
+									<col width="30%">
+									<col width="*">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>구분</th>
+										<th>내용</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>프로젝트명</th>
+										<td>코딩교육 프로그램</td>
+									</tr>
+									<tr>
+										<th>작업형태</th>
+										<td>
+											PC
+										</td>
+									</tr>
+									<tr>
+										<th>사용 툴</th>
+										<td>
+											sublimeText3
+										</td>
+									</tr>
+									<tr>
+										<th>사용언어</th>
+										<td>
+											Html, CSS, Jquery
+										</td>
+									</tr>
+									<tr>
+										<th>기여도</th>
+										<td>80%</td>
+									</tr>
+								</tbody>
+							</table>
+							<p class="contribute">* 퍼블리싱에 대한 기여도만 표시하였습니다.</p>
+						</div>
+						<a class="shortcut" href="/pf/codingedu/index.html" target="_blank">바로가기</a>
+					</div>
+				</article>
+
+
+            	<!--젤리피쉬월드-->
+				<article class="pf cf">
+					<div class="left_con">
+						<img class="pc" src="/images/pf_thumb/p_jellyfish_world.png" alt="젤리피쉬월드 피시버전">
+						<img class="tablet" src="/images/pf_thumb/t_jellyfish_world.png" alt="">
+						<img class="mobile" src="/images/pf_thumb/m_jellyfish_world.png" alt="">
+					</div>
+					<div class="right_con">
+						<div class="table_wrap">
+							<table>
+								<colgroup>
+									<col width="30%">
+									<col width="*">
+								</colgroup>
+								<thead>
+									<tr>
+										<th>구분</th>
+										<th>내용</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>프로젝트명</th>
+										<td>젤리피쉬월드 홈페이지 리뉴얼</td>
+									</tr>
+									<tr>
+										<th>작업형태</th>
+										<td>
+											반응형
+										</td>
+									</tr>
+									<tr>
+										<th>사용 툴</th>
+										<td>
+											sublimeText3
+										</td>
+									</tr>
+									<tr>
+										<th>사용언어</th>
+										<td>
+											Html, CSS, Jquery
+										</td>
+									</tr>
+									<tr>
+										<th>기여도</th>
+										<td>100%</td>
+									</tr>
+								</tbody>
+							</table>
+							<p class="contribute">* 퍼블리싱에 대한 기여도만 표시하였습니다.</p>
+						</div>
+						<a class="shortcut" target="_blank" href="http://www.jellyfish-world.com/">바로가기</a>
+					</div>
+				</article>
+
 			</div>
-		</div>
+
+
+			<a class="show_more" href="#">더보기</a>
+
+        </section>
+        <!--//portfolio-->
+        <!--contact-->
+        <section id="contact" class="contact inner_wrap">
+           <h2 class="sub_title">Contact</h2>
+           <div class="img_wrap">
+           		<img src="images/me.jpg" alt="">
+           </div>
+            <ul>
+            	<li>김혜진</li>
+            	<li><a href=":tel:010-9452-1513">010.9452.1513</a></li>
+            	<li><a href=":mailto:hjk940718@gmail.com">hjk940718@gmail.com</a></li>
+            </ul>
+        </section>
+        <!--//contact-->
+    </main>
+
+
+    <script>
+		$(function(){
+			fnCheckMobile();
+
+			setTimeout(function(){
+				fnTextMotion();
+			}, 2300)
+
+
+			//더보기 기능
+			let $pf = $(".pf_wrapper > .pf");
+			let pfLen = $pf.length;
+			let showCnt = 2;
+			let moreCnt = 0;
+
+			$pf.hide();
+			for(var i = moreCnt; i < moreCnt + 2; i++){
+				$pf.eq(i).show();
+
+			}
+			moreCnt+= 2;
+
+
+			$(".show_more").on("click", function(){
+				if(moreCnt < pfLen) {
+					for(var i = moreCnt; i < moreCnt + 2; i++){
+						$pf.eq(i).fadeIn();
+					}
+					moreCnt+= 2;
+					if(moreCnt >= pfLen) {
+						$(this).hide();
+					}
+				}
+
+
+			})
+
+
+
+
+		})
 		
-		<div id="profile">
-			<h2>profile</h2>
-			<div class="inner_wrap cf">
-				<div class="pr_1 education">
-					<h3>education</h3>
-					<ul>						
-						<li><span>18.02</span>한양사이버대학교 광고미디어</li>
-						<li><span>17.07</span>더조은컴퓨터학원 직업훈련과정 6개월 최우수 수료</li>
-						<li><span>16.02</span>신구대학교 미디어콘텐츠</li>
-						<li><span>13.02</span>경화여자고등학교</li>
-					</ul>
-				</div>
-				<div class="pr_2 license">
-					<h3>license</h3>
-					<ul>
-						<li>정보처리기사</li>
-						<li>워드프로세서</li>
-						<li>운전면허 1종</li>
-					</ul>
-				</div>
-				<div class="pr_3 career">
-					<h3>career</h3>
-					<ul>
-						<li><span>19.04~20.06</span>(주)뉴링크 기업부설연구소 서비스개발팀</li>
-						<li><span>17.08~19.01</span>젤리피쉬월드 개발팀</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<footer id="footer">
-			<div class="inner_wrap">
-				kim hyejin  portfolio 2019. all copyright reserved to kim hyejin.
-			</div>
-		</footer>
-	</div>
+		function fnTextMotion(){
+			$("#typingMotion").css("opacity", 1);
+			let motionText = $("#typingMotion").text();
+			var motionArr = [];
+
+
+			for(var i = 0; i < motionText.length; i++){
+				motionArr[i] = motionText.charAt(i);
+			}
+
+			$("#typingMotion").text(motionArr[0]);
+			motionText = '';
+			var motionCnt = 0;
+
+			var typeMotion = setInterval(function(){
+				motionText += motionArr[motionCnt];
+				$("#typingMotion").text(motionText);
+
+				motionCnt++;
+				if(motionArr.length == motionCnt){clearInterval(typeMotion);}
+			},200);
+		}
+
+
+		function fnCheckMobile(){
+			var isMobile = false; //initiate as false
+			// device detection
+			if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)
+				|| /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0,4))) {
+				isMobile = true;
+			}
+
+			if(isMobile) {
+				$("header").addClass("mobile");
+			}else {
+				$("header").removeClass("mobile");
+			}
+		}
+
+	</script>
 </body>
 </html>
